@@ -1,0 +1,72 @@
+-- create table top50_fastfood_chains
+(company text, category text, sales_in_millions int, sales_per_unit_thousands int, 
+franchised_units int, company_owned_units int, total_units int)
+
+
+-- select * from top50_fastfood_chains
+
+-- COPY top50_fastfood_chains FROM 'C:\Users\Lenovo\Desktop\Datasets\US Fast foods\US Fast foods.csv' DELIMITER ',' CSV HEADER;
+
+
+
+TOTAL FASTFOOD BRANCHES OVERALL IN 2019 (FRANCHISED AND COMPANY OWNED)
+-- select sum(total_units)
+from top50_fastfood_chains 
+
+
+NUMBER OF FASTFOODS PER CATEGORY
+-- SELECT category, COUNT(*) AS "Fast Food Category Count"
+FROM top50_fastfood_chains
+GROUP BY category
+order by "Fast Food Category Count" desc
+
+
+BEST FASTFOOD CHAINS PER CATEGORY VIA SALES
+-- select category, sum(sales_in_millions) as "Total Sales in Millions"
+from top50_fastfood_chains
+group by category
+order by "Total Sales in Millions" desc
+
+
+CORRELATION BETWEEN FASTFOOD CATEGORY AND TOTAL SALES
+-- select category, count(category) as "Number of Fastfoods per Category", 
+	sum(sales_in_millions) as "Total Sales in Milions"
+FROM top50_fastfood_chains
+GROUP BY category
+order by "Total Sales in Milions" desc
+
+
+MOST SUCCESSFUL FASTFOOD IN 2019
+--select company, sales_in_millions AS "Total Sales in Millions"
+from top50_fastfood_chains
+order by sales_in_millions desc
+
+
+TOP 10 
+--select company, total_units as "Number of Branches(Franchised/Company Owned)"
+from top50_fastfood_chains
+order by "Number of Branches(Franchised/Company Owned)" desc
+
+
+MOST FRANCHISED FASTFOOD
+--select company, franchised_units as "Most Franchised Fastfood",
+from top50_fastfood_chains
+order by "Most Franchised Fastfood" desc limit 10
+
+
+LEAST FRANCHISED FASTFOOD
+--select company, franchised_units as "Least Franchised Fastfood"
+from top50_fastfood_chains
+order by "Least Franchised Fastfood" limit 10
+
+
+
+
+
+
+
+
+
+
+
+
