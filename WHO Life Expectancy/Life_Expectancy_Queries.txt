@@ -1,0 +1,143 @@
+-- create table WHO_Life_Expectancy
+(Country text, year Date, Status text, 
+ Life_Expectancy Numeric (3,1), Adult_Mortality int, infant_deaths int,
+ under_five_deaths int, GDP Numeric (14,6), Population Int,
+ income_composition_of_resources Numeric (6,3));
+
+
+----------------------------------------------------------------------------
+-- select * from WHO_Life_Expectancy
+
+----------------------------------------------------------------------------
+-- COPY who_life_Expectancy FROM 'C:\Users\Lenovo\Desktop\Datasets\WHO Life Expectancy\who_life_Expectancy.csv' DELIMITER ',' CSV HEADER;
+
+----------------------------------------------------------------------------
+
+-- UPDATE WHO_Life_Expectancy
+SET 
+  country = NULLIF(country, ''),
+  status = NULLIF(status, ''),
+  life_expectancy = NULLIF(life_expectancy, '0'),
+  adult_mortality = NULLIF(adult_mortality, '0'),
+  infant_deaths = NULLIF(infant_deaths, '0'),
+  under_five_deaths = NULLIF(under_five_deaths, '0'),
+  gdp = NULLIF(gdp, '0'),
+  population = NULLIF(population, '0'),
+  income_composition_of_resources = NULLIF(income_composition_of_resources, '0');
+
+----------------------------------------------------------------------------
+
+1. AVERAGE LIFE EXPECTANCY THRU THE YEARS
+A. What is the overall average life expectancy according to WHO data?
+-- select round(avg(life_expectancy), 2) as "Average Life Expentency"
+from WHO_Life_Expectancy
+B. How has life expectancy changed thru the years?
+-- select extract(year from year) as year, 
+round(avg(life_expectancy), 2)
+from WHO_Life_Expectancy
+group by year
+order by year
+
+
+----------------------------------------------------------------------------
+
+2. REGIONAL ANALYSIS (EACH COUNTRY LIFE EXPECTANCY AND INCOME OF RESOURCES CORRELATION
+A. Countries with the highest life expectancy
+-- select country, 
+round(avg(life_expectancy), 2) as "Average Life Expectancy"
+from WHO_Life_Expectancy
+group by country, status
+having avg(life_expectancy) is not null
+order by avg(life_expectancy) desc LIMIT 20
+
+B. Countries with the highest life expectancy as "Average Life Expectancy"
+-- select country, 
+round(avg(life_expectancy), 2) as "Average Life Expectancy"
+from WHO_Life_Expectancy
+group by country, status
+having avg(life_expectancy) is not null
+order by avg(life_expectancy) LIMIT 20
+
+C. COUNTRY WITH THE HIGHEST COMPOSITION OF RESOURCES
+-- select country, 
+	round(avg(income_composition_of_resources), 2) as "Average Composition of Resources"
+from WHO_Life_Expectancy
+group by country
+having avg(income_composition_of_resources) is not null
+order by avg(income_composition_of_resources) desc
+
+
+
+----------------------------------------------------------------------------
+
+3. DEVELOPED VS DEVELOPING COUNTRIES (PIE CHART)
+-- select 'Developing' as status, 
+	count(status) as "Number of Countries",
+	round(avg(life_expectancy), 2) as "Average Life Expectancy"
+from WHO_Life_Expectancy
+where status = 'Developing'
+
+union all
+
+select 'Developed' as status, 
+	count(status),
+	round(avg(life_expectancy), 2) as "Average Life Expectancy"
+from WHO_Life_Expectancy
+where status = 'Developed'
+
+----------------------------------------------------------------------------
+
+4. AVERAGE MORTALITY RATE vs. INFANT DEATHS vs. UNDER 5 DEATHS (MAP CHART)
+A. Average Adult Mortality per 1000 persons
+-- select country, round(avg(life_expectancy), 2) as "Average Life Expectancy",
+	round(avg(adult_mortality), 2) as "Average_Mortality per 1000",
+	round(avg(infant_deaths), 2) as "Average Infant Deaths per 1000", 
+	round(avg(under_five_deaths), 2) as "Average Under 5 Deaths per 1000"
+from WHO_Life_Expectancy
+group by country
+having avg(adult_mortality) is not null 
+and avg(under_five_deaths) is not null
+and avg(infant_deaths) is not null
+order by country
+
+----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
