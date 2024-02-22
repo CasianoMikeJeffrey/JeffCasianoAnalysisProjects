@@ -1,0 +1,287 @@
+-- CREATE TABLE IF NOT EXISTS `realstate_ph_2021`.`realstate_ph_2021` 
+(`Description` varchar(88), `Barangay` varchar(22), `City` varchar(18), `Province` varchar(18), 
+`Price_PHP` int(11), `Bedrooms` int(1), `Bath` int(1), `Floor_area_sqm` int(4), 
+`Land_area_sqm` int(7)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;;
+
+
+-- update realstate_ph_2021
+set
+Description = Nullif(Description, ''),
+Barangay = Nullif(Barangay, ''),
+City = Nullif(City, ''),
+Province = Nullif(Province, ''),
+Price_PHP = Nullif(Price_PHP, ''),
+Bedrooms = Nullif(Bedrooms, ''),
+Bath = Nullif(Bath, ''),
+Floor_area_sqm = Nullif(Floor_area_sqm, ''),
+Land_area_sqm = Nullif(Land_area_sqm, '');
+
+
+-- alter table realstate_ph_2021
+modify column Price_PHP int(11),
+modify column Bedrooms int(1),
+modify column Bath int(1),
+modify column Floor_area_sqm int(2),
+modify column Land_area_sqm int(2);
+
+
+--------------------------------------------------------------------------------------------------
+1. PRICES
+
+WHAT IS THE AVERAGE PRICE OF REAL STATE UNITS IN THE PHILIPPINES ACCORDING TO Lamudi.com?
+-- SELECT AVG(Price_PHP) as "Average Price of Housing in the Philippines during 2021"
+from realstate_ph_2021
+
+AVERAGE PRICE OF REAL STATE UNITS WITHIN NCR VS. OTHER PROVINCES
+-- SELECT 'Metro Manila' as Location, ROUND(AVG(Price_PHP), 0) as "Average Price"
+FROM realstate_ph_2021
+WHERE Province = 'Metro Manila'
+
+UNION ALL
+
+SELECT 'Other Provinces' as Location, ROUND(AVG(Price_PHP), 0) as "Average Price"
+FROM realstate_ph_2021
+WHERE Province <> 'Metro Manila';
+
+MOST EXPENSIVE UNITS ON THE LIST
+-- select Description, Barangay, City, Province, Price_PHP
+from realstate_ph_2021
+WHERE Price_PHP IS NOT NULL
+order by Price_PHP DESC limit 10;
+
+LEAST EXPENSIVE UNITS ON THE LIST
+-- select Description, Barangay, City, Province, Price_PHP
+from realstate_ph_2021
+WHERE Price_PHP IS NOT NULL
+order by Price_PHP limit 10;
+
+AVERAGE UNIT PRICE PER CITIES OUTSIDE NCR	
+-- SELECT CITY, round(AVG(Price_PHP), 0) AS "Average Price of Housing"
+FROM realstate_ph_2021
+Where Province <> "metro manila" and Price_PHP is not null
+group by City
+order by AVG(Price_PHP) DESC;
+
+AVERAGE UNIT PRICE PER CITY WITHIN NCR 
+-- SELECT CITY, round(AVG(Price_PHP), 0) as "Average Price"
+FROM realstate_ph_2021
+WHERE Province = "Metro Manila"
+group by City
+order by AVG(Price_PHP) DESC;
+
+AVERAGE UNIT PRICE PER PROVINCE
+-- SELECT Province, round(AVG(Price_PHP), 0) AS "Average Price of Housing"
+FROM realstate_ph_2021
+group by Province
+HAVING AVG(Price_PHP) IS NOT NULL
+order by AVG(Price_PHP) DESC
+
+
+--------------------------------------------------------------------------------------------------
+2.PRICE PER SQM
+A. TOTAL AVERAGE PRICE PER SQM OF ALL THE UNITS AVAILABLE (Floor Area VS. Land Area)
+-- SELECT 'Floor Area' as SQM_per, 
+round(AVG(Price_PHP / Floor_area_sqm), 0) as "Average price" 
+from realstate_ph_2021
+
+UNION ALL
+
+SELECT 'Land Area' as SQM_per, 
+round(AVG(Price_PHP / Land_area_sqm), 0) as "Average price"
+from realstate_ph_2021;
+
+B. AVERAGE PRICE PER SQM OFF ALL UNITS METRO MANILA VS PROVINCES (FLOOR AREA)
+-- SELECT 'Metro Manila' AS Location, ROUND(AVG(Price_PHP / Floor_area_sqm), 0) AS "Average price per sqm floor area"
+FROM realstate_ph_2021
+WHERE Province = 'Metro Manila'
+
+UNION ALL
+
+SELECT 'Other Provinces' AS Location, ROUND(AVG(Price_PHP / Floor_area_sqm), 0)
+FROM realstate_ph_2021
+WHERE Province <> 'Metro Manila';
+
+C. AVERAGE PRICE PER SQM OFF ALL UNITS METRO MANILA VS PROVINCES (Land Area)
+-- SELECT 'Metro Manila' as Location, ROUND(AVG(Price_PHP / Land_area_sqm), 0) AS "Average price per sqm land area"
+from realstate_ph_2021
+where Province="metro manila"
+
+UNION ALL
+
+SELECT 'Other Provinces' as Location, ROUND(AVG(Price_PHP / Land_area_sqm), 0) AS "Average price per sqm land area"
+from realstate_ph_2021
+where Province <> "metro manila";
+
+
+D. AVERAGE PRICE PER SQM PER CITY (Floor Area)
+-- SELECT City, round(AVG(Price_PHP / Floor_area_sqm), 0) as "Average price per sqm floor area" 
+from realstate_ph_2021
+GROUP BY City
+having round(AVG(Price_PHP / Floor_area_sqm), 0) is not null
+order by round(AVG(Price_PHP / Floor_area_sqm), 0) DESC;
+
+E. AVERAGE PRICE PER SQM PER CITY (Land Area)
+-- SELECT City, round(AVG(Price_PHP / Land_area_sqm), 0) as "Average price per sqm land area" 
+from realstate_ph_2021
+GROUP BY City
+having round(AVG(Price_PHP / Land_area_sqm), 0) is not null
+order by round(AVG(Price_PHP / Land_area_sqm), 0) DESC;
+
+F. AVERAGE PRICE PER SQM PER PROVINCE (Floor Area)
+-- SELECT Province, round(AVG(Price_PHP / Floor_area_sqm), 0) as "Average price per sqm floor area" 
+from realstate_ph_2021
+GROUP BY Province
+having round(AVG(Price_PHP / Floor_area_sqm), 0) is not null
+order by round(AVG(Price_PHP / Floor_area_sqm), 0) DESC;
+
+J. AVERAGE PRICE PER SQM PER PROVINCE (Land Area)
+-- SELECT Province, round(AVG(Price_PHP / Land_area_sqm), 0) as "Average price per sqm land area" 
+from realstate_ph_2021
+GROUP BY Province
+having round(AVG(Price_PHP / Land_area_sqm), 0) is not null
+order by round(AVG(Price_PHP / Land_area_sqm), 0) DESC;
+
+--------------------------------------------------------------------------------------------------
+3. UNIT SIZES
+ 
+(FLOOR AREA)
+A. LARGEST UNIT ON THE LIST BASED ON FLOOR AREA
+-- select Description, Barangay, City, Province, Floor_area_sqm
+from realstate_ph_2021
+WHERE Floor_area_sqm IS NOT NULL
+order by Floor_area_sqm DESC limit 10;
+
+B. SMALLEST UNIT ON THE LIST BASED ON FLOOR AREA
+-- select Description, Barangay, City, Province, Floor_area_sqm
+from realstate_ph_2021
+WHERE Floor_area_sqm IS NOT NULL
+order by Floor_area_sqm limit 10;
+
+
+(LAND AREA)
+C. LARGEST Land Area
+-- select Description, Barangay, City, Province, Land_area_sqm
+from realstate_ph_2021
+WHERE Land_area_sqm IS NOT NULL
+order by Land_area_sqm DESC limit 10;
+
+D. SMALLEST Land Area
+-- SELECT Description, Barangay, City, Province, Land_area_sqm
+from realstate_ph_2021
+WHERE Land_area_sqm IS NOT NULL
+order by Land_area_sqm limit 10;
+
+--------------------------------------------------------------------------------------------------
+4. LOCATION 
+A. NUMBER OF UNITS FOR SALE IN NCR
+(HIGHEST)
+-- SELECT CITY, COUNT(Description) AS "Number of Unit for Sale"
+from realstate_ph_2021
+where Province = "Metro Manila"
+group by City
+order by COUNT(Description) DESC;
+
+B. NUMBER OF UNITS FOR SALE IN PROVINCES
+(HIGHEST)
+-- SELECT Province, COUNT(Description) AS "Number of Unit for Sale"
+from realstate_ph_2021
+where Province <> "Metro MAnila"
+group by Province
+order by COUNT(Description) DESC;
+
+--------------------------------------------------------------------------------------------------
+5. UNIT TYPE
+A. COMMON UNIT TYPE AND AVERAGE PRICE FOR SALE IN THE PHILIPPINES BASED ON NUMBER OF BEDROOMS
+-- SELECT Bedrooms, 
+COUNT(Description) as "Price and Number of Units based on number of Bedrooms",
+round(AVG(Price_PHP), 0) as "Average Price"
+from realstate_ph_2021
+where Bedrooms is not null
+group by Bedrooms;
+
+B. COMMON UNIT TYPE FOR SALE IN THE PHILIPPINES BASED ON NUMBER OF BATHROOMS
+-- SELECT Bath, 
+COUNT(Description) as "Price and Number of Units based on number of Bathrooms",
+round(AVG(Price_PHP), 0) as "Average Price"
+from realstate_ph_2021
+group by Bath
+having Bath is not null 
+and round(AVG(Price_PHP), 0) is not null
+--------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
