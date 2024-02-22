@@ -1,0 +1,880 @@
+Movie_ID,Title,Director,Writer,Main_Genres,Motion_Picture_Rating,Runtime_Minutes,Rating,Budget_InMillions,Gross_USCanada_InMillions,Gross_worldwide_InMillions,Opening_Weekend_USCanada,Gross_Opening_Weekend_InMillions
+1,Napoleon,Ridley Scott,David Scarpa,Action,R,158,6.7,,37.514,84.968,11.26.2023,20.639
+2,The Hunger Games: The Ballad of Songbirds & Snakes,Francis Lawrence,"Michael Lesslie,Michael Arndt,Suzanne Collins",Action,PG-13,157,7.2,100,105.043,191.729,11.19.2023,44.607
+3,The Killer,David Fincher,"Andrew Kevin Walker,Luc Jacamon,Alexis Nolent",Action,R,118,6.8,,,0.421,,
+4,Leo,"David Wachtenheim,Robert Smigel,Robert Marianetti","Paul Sado,Robert Smigel,Adam Sandler",Animation,PG,102,7,,,,,
+5,Thanksgiving,Eli Roth,"Eli Roth,Jeff Rendell",Horror,R,106,7,,25.409,29.667,11.19.2023,10.306
+6,Oppenheimer,Christopher Nolan,"Martin Sherwin,Christopher Nolan,Kai Bird",Biography,R,3,8.5,100,325.367,950.554,07.23.2023,82.455
+7,Saltburn,Emerald Fennell,Emerald Fennell,Comedy,R,131,7.5,,4.358,7.546,11.19.2023,0.323
+8,The Marvels,Nia DaCosta,"Elissa Karasik,Nia DaCosta,Megan McDonnell",Action,PG-13,105,6,220,77.927,188.197,11.12.2023,46.111
+9,Wish,"Fawn Veerasunthorn,Chris Buck","Jennifer Lee,Chris Buck,Allison Moore",Animation,PG,95,5.9,200,33.974,51.276,11.26.2023,19.698
+10,The Creator,Gareth Edwards,"Chris Weitz,Gareth Edwards",Action,PG-13,133,6.9,80,40.775,104.181,10.01.2023,14.08
+11,Killers of the Flower Moon,Martin Scorsese,"Eric Roth,David Grann,Martin Scorsese",Crime,R,206,8,200,65.979,152.179,10.22.2023,23.254
+12,Trolls Band Together,"Walt Dohrn,Tim Heitz","Kim Caramele,Thomas Dam,Elizabeth Tippet",Animation,PG,91,6,,66.716,149.763,11.19.2023,30.003
+13,Five Nights at Freddy's,Emma Tammi,"Emma Tammi,Seth Cuddeback,Scott Cawthon",Horror,PG-13,109,5.5,20,136.459,284.339,10.29.2023,80.002
+14,Blue Beetle,Angel Manuel Soto,Gareth Dunnet-Alcocer,Action,PG-13,127,6,104,72.488,129.288,08.20.2023,25.03
+15,A Haunting in Venice,Kenneth Branagh,"Michael Green,Agatha Christie",Crime,PG-13,103,6.5,60,42.471,122.032,09.17.2023,14.28
+16,Tiger 3,Maneesh Sharma,"Aditya Chopra,Shridhar Raghavan,Anckur Chaudhry",Action,,154,7.5,,5.365,11.317,11.12.2023,1.913
+17,The Holdovers,Alexander Payne,David Hemingson,Comedy,R,133,8.2,,13.736,13.736,10.29.2023,0.211
+18,Barbie,Greta Gerwig,"Greta Gerwig,Noah Baumbach",Adventure,PG-13,114,7,100,636.192,1441.792,07.23.2023,162.022
+19,Anyone But You,Will Gluck,"Will Gluck,Ilana Wolpert",Comedy,,100,,,,,,
+20,Please Don't Destroy: The Treasure of Foggy Mountain,Paul Briganti,"John Higgins,Martin Herlihy,Ben Marshall",Comedy,R,92,6.1,,,,,
+21,Best. Christmas. Ever!,Mary Lambert,"Todd Calgi Gallicano,Charles Shyer",Comedy,TV-PG,82,4.4,,,,,
+22,The Marsh King's Daughter,Neil Burger,"Elle Smith,Karen Dionne,Mark L. Smith",Crime,R,109,5.9,,1.788,2.612,11.05.2023,0.849
+23,No Hard Feelings,Gene Stupnitsky,"Gene Stupnitsky,John Phillips",Comedy,R,103,6.4,45,50.452,87.247,06.25.2023,15.003
+24,Aquaman and the Lost Kingdom,James Wan,"Jason Momoa,James Wan,David Leslie Johnson-McGoldrick",Action,PG-13,115,,205,,,,
+25,Wonka,Paul King,"Paul King,Roald Dahl,Simon Farnaby",Adventure,PG,112,,,,,,
+26,Leo,Lokesh Kanagaraj,"Lokesh Kanagaraj,Rathna Kumar,Deeraj Vaidy",Action,,164,7.5,,,6.978,,
+27,Mission: Impossible - Dead Reckoning Part One,Christopher McQuarrie,"Erik Jendresen,Christopher McQuarrie,Bruce Geller",Action,PG-13,163,7.8,291,172.135,567.535,07.16.2023,54.688
+28,Spider-Man: Across the Spider-Verse,"Justin K. Thompson,Joaquim Dos Santos,Kemp Powers","Dave Callaham,Phil Lord,Christopher Miller",Action,PG,140,8.7,150,381.311,690.517,06.04.2023,120.664
+29,Good Burger 2,Phil Traill,"Heath Seifert,Kevin Kopelow,Dan Schneider",Comedy,TV-PG,90,5.5,,,,,
+30,Genie,Sam Boyd,Richard Curtis,Comedy,PG,93,6,,,0.084,,
+31,Poor Things,Yorgos Lanthimos,"Tony McNamara,Alasdair Gray",Romance,R,141,8.5,,,,,
+32,Dream Scenario,Kristoffer Borgli,Kristoffer Borgli,Comedy,R,102,7.4,,1.388,2.548,11.12.2023,0.22
+33,Priscilla,Sofia Coppola,"Sandra Harmon,Priscilla Presley,Sofia Coppola",Biography,R,113,7,,19.602,19.602,10.29.2023,0.132
+34,Next Goal Wins,Taika Waititi,"Taika Waititi,Iain Morris",Comedy,PG-13,104,6.5,14,6.088,6.088,11.19.2023,2.5
+35,Nyad,"Jimmy Chin,Elizabeth Chai Vasarhelyi","Julia Cox,Diana Nyad",Biography,PG-13,121,7.1,,,0.016,,
+36,May December,Todd Haynes,"Alex Mechanik,Samy Burch",Comedy,R,117,7.5,,,0.235,,
+37,Pain Hustlers,David Yates,"Evan Hughes,Wells Tower",Crime,R,123,6.5,50,,,,
+38,Godzilla Minus One,Takashi Yamazaki,Takashi Yamazaki,Action,PG-13,125,8.4,,,23.131,,
+39,Maestro,Bradley Cooper,"Bradley Cooper,Josh Singer",Biography,R,129,7.1,,,0.003,,
+40,Old Dads,Bill Burr,"Ben Tishler,Bill Burr",Comedy,R,104,6.2,,,,,
+41,The Equalizer 3,Antoine Fuqua,"Michael Sloan,Richard Wenk,Richard Lindheim",Action,R,109,6.9,70,92.374,190.687,09.03.2023,34.604
+42,Jawan,Atlee,"Sumit Arora,Atlee,Ramanagirivasan",Action,Not Rated,169,7.1,,15.199,28.499,09.10.2023,6.125
+43,EXmas,Jonah Feingold,Dan Steele,Comedy,,93,5.7,,,,,
+44,Reptile,Grant Singer,"Grant Singer,Benjamin Brewer,Benicio Del Toro",Crime,R,134,6.8,,,,,
+45,Rebel Moon: Part One - A Child of Fire,Zack Snyder,"Kurt Johnstad,Shay Hatten,Zack Snyder",Action,PG-13,133,,90,,,,
+46,Anatomy of a Fall,Justine Triet,"Arthur Harari,Justine Triet",Crime,R,151,7.9,6.2,3.367,18.221,10.15.2023,0.118
+47,Sound of Freedom,Alejandro Monteverde,"Rod Barr,Alejandro Monteverde",Biography,PG-13,131,7.7,14.6,184.175,247.802,07.09.2023,19.681
+48,Dashing Through the Snow,Tim Story,Scott Rosenberg,Comedy,PG,92,5.5,,,,,
+49,The Shift,Brock Heasley,Brock Heasley,Sci-Fi,PG-13,115,6.5,,,,,
+50,John Wick: Chapter 4,Chad Stahelski,"Shay Hatten,Derek Kolstad,Michael Finch",Action,R,169,7.7,100,187.132,440.147,03.26.2023,73.818
+51,Rustin,George C. Wolfe,"Dustin Lance Black,Julian Breece",Biography,PG-13,106,6.6,,,,,
+52,Dumb Money,Craig Gillespie,"Rebecca Angelo,Lauren Schuker Blum,Ben Mezrich",Biography,R,105,6.9,30,13.925,20.213,09.17.2023,0.221
+53,Manodrome,John Trengove,John Trengove,Drama,R,95,4.8,,,,,
+54,When Evil Lurks,Demián Rugna,Demián Rugna,Horror,Not Rated,99,7,,0.547,0.804,10.08.2023,0.206
+55,Saw X,Kevin Greutert,"Josh Stolberg,Pete Goldfinger",Horror,R,118,6.7,13,53.608,106.226,10.01.2023,18.309
+56,The Naughty Nine,Alberto Belli,"Scott Thomas,Jed Elinoff",Adventure,TV-PG,83,5,32,,,,
+57,See You on Venus,Joaquín Llamas,Victoria Vinuesa,Drama,,94,5.9,,,0.171,,
+58,The Iron Claw,Sean Durkin,Sean Durkin,Biography,,130,,20.4,,,,
+59,Scream VI,"Matt Bettinelli-Olpin,Tyler Gillett","Kevin Williamson,Guy Busick,James Vanderbilt",Horror,R,122,6.5,35,108.161,168.961,03.12.2023,44.447
+60,Dungeons & Dragons: Honor Among Thieves,"John Francis Daley,Jonathan Goldstein","John Francis Daley,Michael Gilio,Jonathan Goldstein",Action,PG-13,134,7.3,150,93.277,208.177,04.02.2023,37.206
+61,Elemental,Peter Sohn,"Kat Likkel,Brenda Hsueh,John Hoberg",Animation,PG,101,7,200,154.427,495.924,06.18.2023,29.602
+62,Guardians of the Galaxy Vol. 3,James Gunn,"James Gunn,Jim Starlin,Stan Lee",Action,PG-13,150,7.9,250,358.996,845.556,05.07.2023,118.414
+63,Indiana Jones and the Dial of Destiny,James Mangold,"Jez Butterworth,David Koepp,John-Henry Butterworth",Action,PG-13,154,6.6,294.7,174.48,383.963,07.02.2023,60.368
+64,Gran Turismo,Neill Blomkamp,"Jason Hall,Zach Baylin,Alex Tse",Action,PG-13,134,7.2,60,44.429,121.68,08.27.2023,17.411
+65,The Boy and the Heron,Hayao Miyazaki,,Animation,PG-13,124,7.6,,,83.329,,
+66,The Super Mario Bros. Movie,"Pierre Leduc,Michael Jelenic,Aaron Horvath",Matthew Fogel,Animation,PG,92,7.1,100,574.934,1361.977,04.09.2023,146.362
+67,Expend4bles,Scott Waugh,"Tad Daggerhart,Max Adams,Kurt Wimmer",Action,R,103,4.8,100,16.71,37.963,09.24.2023,8.039
+68,Locked In,Nour Wazzi,Rowan Joffe,Horror,TV-MA,96,5.1,,,,,
+69,All-Time High,Julien Hollande,Julien Hollande,Comedy,TV-MA,101,5.6,,,,,
+70,Nuovo Olimpo,Ferzan Özpetek,"Gianni Romoli,Ferzan Özpetek",Drama,TV-MA,113,7.2,,,,,
+71,Book Club: The Next Chapter,Bill Holderman,"Bill Holderman,Erin Simms",Comedy,PG-13,107,5.6,20,17.556,28.987,05.14.2023,6.678
+72,The Blind,Andrew Hyatt,"Stephanie Katz,Zach Dasher,Andrew Hyatt",Drama,PG-13,108,6,,17.265,17.265,10.01.2023,4.342
+73,Stamped from the Beginning,Roger Ross Williams,"David Teague,Ibram X. Kendi",Documentary,R,91,6.3,,,,,
+74,Brave Citizen,Park Jin-Pyo,Ji Na Yeo,Action,,112,6.8,,,1.94,,
+75,Apurva,Nikhil Nagesh Bhat,Nikhil Nagesh Bhat,Drama,,95,6.2,,,,,
+76,Sympathy for the Devil,Yuval Adler,Luke Paradise,Action,,90,5.5,,0.012,0.237,07.30.2023,0.005
+77,Miranda's Victim,Michelle Danner,"J. Craig Stiles,George Kolber,Richard Lasser",Biography,,127,6.5,,,,,
+78,Bye Bye Barry,"Paul Monusky,Angela Torma,Micaela Powers",,Documentary,,92,8,,,,,
+79,Flora and Son,John Carney,John Carney,Drama,R,97,7,,,0.13,,
+80,Assassin Club,Camille Delamarre,Thomas Dunn,Action,R,111,4.7,,,0.188,,
+81,The Last Rifleman,Terry Loane,Kevin Fitzpatrick,Drama,,95,6.7,,,,,
+82,In Love and Deep Water,"Yûsuke Taki,Morgan Bailey Keaton",Yûji Sakamoto,Comedy,TV-14,125,4.9,,,,,
+83,Nefarious,"Chuck Konzelman,Cary Solomon","Chuck Konzelman,Steve Deace,Cary Solomon",Horror,R,97,6.4,,5.434,5.492,04.16.2023,1.316
+84,The Fall of Minneapolis,JC Chaix,"JC Chaix,Liz Collin",Documentary,,102,8.3,,,,,
+85,Sick Girl,Jennifer Cram,Jennifer Cram,Comedy,R,99,4.8,,,0.022,,
+86,Beautiful Disaster,Roger Kumble,"Roger Kumble,Jamie McGuire",Drama,R,96,5.3,,,6.85,,
+87,Frybread Face and Me,Billy Luther,Billy Luther,Drama,,83,7.3,,,,,
+88,The Out-Laws,Tyler Spindel,"Ben Zazove,Evan Turner",Action,R,95,5.4,,,,,
+89,The Three Musketeers - Part I: D'Artagnan,Martin Bourboulon,"Matthieu Delaporte,Alexandre de La Patellière,Alexandre Dumas",Action,,121,6.7,36,,31.454,,
+90,Under the Boardwalk,David Soren,"David Soren,David Dobkin,Lorene Scafaria",Animation,PG,83,5.8,,,,,
+91,The Reading,Courtney Glaude,Courtney Glaude,Thriller,TV-MA,96,5.3,,,,,
+92,About My Father,Laura Terruso,"Austen Earl,Sebastian Maniscalco",Comedy,PG-13,90,5.7,,12.089,18.168,05.28.2023,4.321
+93,Desperation Road,Nadine Crocker,,Action,R,112,5.7,,,0.041,,
+94,God Is a Bullet,Nick Cassavetes,"Nick Cassavetes,Boston Teran",Action,18+,156,5.6,,,0.141,,
+95,Hit Man,,"Richard Linklater,Glen Powell,Skip Hollandsworth",Action,R,113,7.8,,,,,
+96,Zombie Town,Peter Lepeniotis,"Michael Schwartz,Peter Lepeniotis,Michael Samonek",Comedy,PG-13,92,3.9,,0.131,0.131,09.03.2023,0.084
+97,Suitable Flesh,Joe Lynch,"H.P. Lovecraft,Dennis Paoli",Horror,,100,5.3,,0.018,0.023,10.29.2023,0.011
+98,Pet Sematary: Bloodlines,Lindsey Anderson Beer,"Jeff Buhler,Lindsey Anderson Beer,Stephen King",Fantasy,R,87,4.6,,,,,
+99,Tetris,Jon S. Baird,Noah Pink,Biography,R,118,7.4,,,,,
+100,Passages,Ira Sachs,"Ira Sachs,Arlette Langmann,Mauricio Zacharias",Drama,Unrated,91,6.8,,0.552,1.103,08.06.2023,0.063
+101,They Cloned Tyrone,Juel Taylor,"Juel Taylor,Tony Rettenmaier",Comedy,R,122,6.6,,,,,
+102,Happiness for Beginners,Vicky Wight,"Vicky Wight,Katherine Center",Comedy,TV-14,103,6.1,,,,,
+103,Creation of the Gods I: Kingdom of Storms,Wuershan,"Jianan Ran,Ping Ran,Cao Sheng",Adventure,,148,6.9,800,1.706,2.356,09.24.2023,0.931
+104,Simulant,April Mullen,Ryan Christopher Churchill,Crime,Not Rated,95,5.2,,,0.237,,
+105,The Conference,Patrik Eklund,"Thomas Moldestad,Mats Strandberg,Patrik Eklund",Comedy,TV-MA,100,5.8,,,,,
+106,Maxine's Baby: The Tyler Perry Story,"Gelila Bekele,Armani Ortiz",Gelila Bekele,Documentary,PG-13,115,7.8,,,,,
+107,Fast Charlie,Phillip Noyce,"Victor Gischler,Richard Wenk",Action,,,8.8,20,,,,
+108,Ballerina,Chung-Hyun Lee,Chung-Hyun Lee,Action,TV-MA,92,6.2,,,,,
+109,Deep Fear,Marcus Adams,"Sophia Eptamenitis,Robert Capelli Jr.",Action,,84,3.8,,,0.135,,
+110,Guardians of the Formula,Dragan Bjelogrlic,"Dragan Bjelogrlic,Goran Milasinovic,Vuk Rsumovic",Drama,,2,8.6,,,0.939,,
+111,Onyx the Fortuitous and the Talisman of Souls,Andrew Bowser,Andrew Bowser,Comedy,,108,6.4,,0.182,0.182,,
+112,Nimona,"Troy Quane,Nick Bruno","Lloyd Taylor,Pamela Ribon,Robert L. Baird",Action,PG,101,7.6,,,,,
+113,The Miracle Club,Thaddeus O'Sullivan,"Joshua D. Maurer,Timothy Prager,Jimmy Smallhorne",Comedy,PG-13,90,6.3,8.9,2.403,6.626,07.16.2023,0.665
+114,Ronnie O'Sullivan: The Edge of Everything,Sam Blair,,Documentary,,113,7.8,,,0.036,,
+115,Polite Society,Nida Manzoor,Nida Manzoor,Action,PG-13,104,6.7,,1.546,2.594,04.30.2023,0.818
+116,The Wrath of Becky,"Matt Angel,Suzanne Coote","Suzanne Coote,Nick Morris,Matt Angel",Action,R,84,6.1,,0.168,0.202,05.28.2023,0.147
+117,Hardcore Never Dies,Jim Taihuttu,"Amira Duynhouwer,Victor D. Ponten",Crime,,115,7.2,3.2,,1.059,,
+118,The Hill,Jeff Celentano,"Scott Marshall Smith,Bill Chaffin,Angelo Pizzo",Biography,PG,126,6.4,,7.666,7.666,08.27.2023,2.302
+119,Mr. Monk's Last Case: A Monk Movie,Randy Zisk,Andy Breckman,Comedy,,,,,,,,
+120,Sister Death,Paco Plaza,"Jorge Guerricaechevarría,Paco Plaza",Horror,TV-MA,91,5.7,,,,,
+121,JFK: What the Doctors Saw,Barbara Shearer,,Documentary,,92,7.5,,,,,
+122,Jailer,Nelson Dilipkumar,Nelson Dilipkumar,Action,,168,7.1,,,4.818,,
+123,Last Stop Larrimah,Thomas Tancred,,Documentary,TV-MA,118,7.1,,,,,
+124,Paradise,Boris Kunz,"Peter Kocyla,Boris Kunz,Simon Amberger",Action,TV-MA,117,6.3,,,,,
+125,The Promised Land,Nikolaj Arcel,"Nikolaj Arcel,Ida Jessen,Anders Thomas Jensen",Biography,,127,7.8,8,,,,
+126,Hidden Strike,Scott Waugh,Arash Amel,Action,TV-14,102,5.3,80,,2.155,,
+127,Missing,"Will Merrick,Nicholas D. Johnson","Sev Ohanian,Will Merrick,Nicholas D. Johnson",Drama,PG-13,111,7.1,7,32.502,48.768,01.22.2023,9.155
+128,The Oath,Darin Scott,"Michelle Scott,Darin Scott",Action,PG-13,104,,,,,,
+129,Zoey 102,Nancy Hower,"Dan Schneider,Madeline Whitby,Monica Sherer",Comedy,TV-14,101,5,,,,,
+130,Fukrey 3,Mrighdeep Lamba,Vipul Vig,Comedy,Not Rated,147,6.7,0,,0.584,,
+131,Left Behind: Rise of the Antichrist,Kevin Sorbo,"Jessica Parker,Paul Lalonde,John Patus",Action,Not Rated,115,4.2,,3.649,3.649,01.29.2023,2.553
+132,The Jester,Colin Krawchuk,"Michael Sheffield,Colin Krawchuk",Horror,,90,4.2,,,0.93,,
+133,Quiz Lady,Jessica Yu,Jen D'Angelo,Comedy,R,99,6.7,,,,,
+134,Asteroid City,Wes Anderson,"Roman Coppola,Wes Anderson",Comedy,PG-13,105,6.6,25,28.153,53.831,06.18.2023,0.853
+135,Believer 2,Jong-Yeol Baek,Cheol-Hong Jeon,Action,TV-MA,114,5.6,,,,,
+136,Fair Play,Chloe Domont,Chloe Domont,Drama,R,113,6.4,,,,,
+137,Past Lives,Celine Song,Celine Song,Drama,PG-13,105,8,,10.924,20.286,06.04.2023,0.232
+138,The Burial,Maggie Betts,"Maggie Betts,Jonathan Harr,Doug Wright",Drama,R,126,7.1,,,,,
+139,Last Call for Istanbul,Gonenc Uyanik,Nuran Evren Sit,Drama,TV-MA,91,5.4,,,,,
+140,Bottoms,Emma Seligman,"Emma Seligman,Rachel Sennott",Comedy,R,91,6.9,,12.036,12.591,08.27.2023,0.461
+141,Totally Killer,Nahnatchka Khan,"Jen D'Angelo,David Matalon,Sasha Perl-Raver",Comedy,R,106,6.6,,,,,
+142,Leave the World Behind,Sam Esmail,"Sam Esmail,Rumaan Alam",Drama,R,138,6.9,,,,,
+143,Journey to Bethlehem,Adam Anders,"Peter Barsocchini,Adam Anders",Adventure,PG,99,6.6,6,5.912,5.964,11.12.2023,2.4
+144,Kandahar,Ric Roman Waugh,Mitchell LaFortune,Action,R,119,6.1,,4.813,9.385,05.28.2023,2.325
+145,Teenage Mutant Ninja Turtles: Mutant Mayhem,"Kyler Spears,Jeff Rowe","Seth Rogen,Evan Goldberg,Jeff Rowe",Action,PG,99,7.2,70,118.614,180.514,08.06.2023,28.008
+146,The Covenant,Guy Ritchie,"Guy Ritchie,Marn Davies,Ivan Atkinson",Action,R,123,7.5,55,16.938,21.632,04.23.2023,6.38
+147,The Flash,Andy Muschietti,"John Francis Daley,Jonathan Goldstein,Christina Hodson",Action,PG-13,144,6.7,200,108.133,270.633,06.18.2023,55.044
+148,Ferrari,Michael Mann,"Troy Kennedy Martin,Brock Yates",Biography,R,130,6.6,110,,,,
+149,Warhorse One,"William Kaufman,Johnny Strong",Johnny Strong,Action,R,126,5.2,,,0.001,,
+150,The Toxic Avenger,Macon Blair,"Joe Ritter,Lloyd Kaufman,Macon Blair",Action,R,102,5.9,,,,,
+151,There's Something in the Barn,"Magnus Martens(director:),Magnus Martens","Josh Epstein,Aleksander Kirkwood Brown,Kyle Rideout",Comedy,R,100,6.1,,,0.451,,
+152,Mafia Mamma,Catherine Hardwicke,"Debbie Jhoon,Amanda Sthers,J. Michael Feldman",Action,R,101,5.4,,3.497,6.121,04.16.2023,2.032
+153,Where the Devil Roams,"Zelda Adams,Toby Poser,John Adams","John Adams,Toby Poser,Zelda Adams",Horror,,93,5.6,,,,,
+154,Golda,Guy Nattiv,Nicholas Martin,Biography,PG-13,100,5.9,,4.802,5.822,08.27.2023,1.696
+155,Pathaan,Siddharth Anand,"Siddharth Anand,Shridhar Raghavan,Abbas Tyrewala",Action,Not Rated,146,5.9,,17.487,128.78,01.29.2023,6.892
+156,Big George Foreman,George Tillman Jr.,"George Tillman Jr.,Frank Baldwin,Dan Gordon",Biography,PG-13,129,6.6,32,5.427,6.031,04.30.2023,2.925
+157,River Wild,Ben Ketai,"Mike Nguyen Le,Ben Ketai,Denis O'Neill",Action,PG-13,91,5.4,,,,,
+158,Reality,Tina Satter,"Tina Satter,James Paul Dallas",Drama,TV-MA,83,6.7,,,1.403,,
+159,Luther: The Fallen Sun,Jamie Payne,,Crime,R,129,6.4,,,,,
+160,All Dirt Roads Taste of Salt,Raven Jackson,Raven Jackson,Drama,PG,92,6,,0.043,0.043,11.05.2023,0.011
+161,About Dry Grasses,Nuri Bilge Ceylan,"Nuri Bilge Ceylan,Ebru Ceylan,Akin Aksu",Drama,,197,8.1,3.5,,2.211,,
+162,Magic Mike's Last Dance,Steven Soderbergh,,Comedy,R,112,5.2,40,26.005,57.105,02.12.2023,8.305
+163,Inside,"Vasilis Katsoupis,Vasilis Katsoupis(a film by)","Vasilis Katsoupis,Ben Hopkins",Drama,R,105,5.5,,0.897,0.897,03.19.2023,0.51
+164,Mutt,Vuk Lungulov-Klotz,Vuk Lungulov-Klotz,Drama,,87,6.2,,,,,
+165,Nandor Fodor and the Talking Mongoose,Adam Sigal,Adam Sigal,Comedy,PG-13,96,5.3,,,0.006,,
+166,Englemageren,"Julie R. Ølgaard,Esben Tønnesen","Julie R. Ølgaard,Yusuf Othman",Crime,,94,5.2,,,0.077,,
+167,OMG 2,Amit Rai,Amit Rai,Comedy,,156,7.7,500,,0.615,,
+168,Squealer,Andy Armstrong,"Andy Armstrong,Danielle Burgio",Action,R,100,3.5,,,,,
+169,Afire,Christian Petzold,Christian Petzold,Comedy,,102,7.3,,0.245,2.154,07.16.2023,0.038
+170,Perfect Days,Wim Wenders,"Wim Wenders,Takuma Takasaki",Drama,PG,123,8,,,0.004,,
+171,Farrey,Soumendra Padhi,"Abhishek Yadav,Soumendra Padhi,Jitendra Nath Jeetu",Crime,,130,9.2,,,,,
+172,Puppy Love,"Nick Fabiano,Richard Alan Reid","Greg Glienna,Peter Stass,Kirsten Guenther",Comedy,R,106,6.3,,,0.066,,
+173,Tiger Nageswara Rao,Vamsee,"Vamsee,Srikanth Vissa",Action,,172,6.4,,,0.02,,
+174,172 Days,Hadrah Daeng Ratu,"Archie Hekagery,Nadzira Shafa",Biography,,103,7,,,,,
+175,The Teachers' Lounge,Ilker Çatak,"Ilker Çatak,Johannes Duncker",Drama,PG-13,98,7.6,,,2.016,,
+176,It Lives Inside,Bishal Dutta,"Bishal Dutta,Ashish Mehta",Drama,PG-13,99,5.2,,4.675,6.484,09.24.2023,2.608
+177,Cat Person,Susanna Fogel,"Michelle Ashford,Kristen Roupenian",Drama,,118,6.2,,0.056,0.303,10.08.2023,0.01
+178,Khufiya,Vishal Bhardwaj,"Vishal Bhardwaj,Rohan Narula,Amar Bhushan",Action,TV-MA,157,6,,,,,
+179,Black Girl Missing,Delmar Washington,Kale Futterman,Crime,TV-14,88,5.4,,,,,
+180,The Portable Door,Jeffrey Walker,"Leon Ford,Tom Holt",Adventure,,116,6.1,,,0.801,,
+181,You People,Kenya Barris,"Jonah Hill,Kenya Barris",Comedy,R,117,5.5,,,,,
+182,Haunting of the Queen Mary,Gary Shore,"Tom Vaughan,Gary Shore,Stephen Oliver",Drama,Not Rated,125,4.2,,,1.351,,
+183,The Dive,Maximilian Erlenwein,"Joachim Hedén,Maximilian Erlenwein",Drama,,91,5.5,,0.006,1.454,08.27.2023,0.004
+184,Lee,Ellen Kuras,"Marion Hume,Liz Hannah,John Collee",Biography,R,116,7,,,,,
+185,The Taste of Things,Anh Hung Tran,"Marcel Rouff,Anh Hung Tran",Drama,,145,7.5,,,1.489,,
+186,Boston Strangler,Matt Ruskin,Matt Ruskin,Crime,R,112,6.5,,,,,
+187,The Black Demon,Adrian Grunberg,"Boise Esquerra,Carlos Cisco",Drama,R,100,3.7,,,3.447,,
+188,Dicks: The Musical,Larry Charles,"Aaron Jackson,Josh Sharp",Comedy,R,86,5.5,12,1.443,1.443,10.08.2023,0.202
+189,The Peasants,"Hugh Welchman,DK Welchman","Wladyslaw Stanislaw Reymont,Hugh Welchman,DK Welchman",Animation,R,114,8.2,,,7.983,,
+190,Resident Evil: Death Island,Eiichirô Hasumi,Makoto Fukami,Action,R,91,5.7,,,0.043,,
+191,The Collective,Tom DeNucci,"Jason James,Matthew Rogers",Action,,86,3.1,,,0.005,,
+192,Sharper,Benjamin Caron,"Brian Gatewood,Alessandro Tanaka",Crime,R,116,6.7,,,,,
+193,Jigarthanda Double X,Karthik Subbaraj,Karthik Subbaraj,Action,,172,8.4,,,0.275,,
+194,Role Play,Thomas Vincent,Seth W. Owen,Action,R,100,,,,,,
+195,Maybe I Do,Michael Jacobs,Michael Jacobs,Comedy,PG-13,95,4.9,7.5,1.294,4.45,01.29.2023,0.546
+196,Welcome al Norte,Gustavo Loza,Gustavo Loza,Comedy,,113,7.1,3.5,,1.011,,
+197,The Mother,Niki Caro,"Misha Green,Andrea Berloff,Peter Craig",Action,R,115,5.6,,,,,
+198,Rise of the Footsoldier: Vengeance,Nick Nevern,"Jason Maza,Andrew Loveday",Action,,112,6.3,,,0.473,,
+199,Finestkind,Brian Helgeland,Brian Helgeland,Crime,R,126,6.3,,,,,
+200,Dark Harvest,David Slade,"Michael Gilio,Norman Partridge",Fantasy,R,96,5.5,,,,,
+201,Murder Mystery 2,Jeremy Garelick,,Action,PG-13,90,5.7,,,,,
+202,Sitting in Bars with Cake,Trish Sie,,Comedy,PG-13,2,6.4,,,,,
+203,Outlaw Johnny Black,Michael Jai White,"Byron Minns,Michael Jai White",Action,PG-13,130,5.6,,0.32,0.32,09.17.2023,0.178
+204,Boudica: Queen of War,Jesse V. Johnson,Jesse V. Johnson,Action,R,101,4.4,,,0.053,,
+205,MaXXXine,Ti West,,Horror,R,101,,,,,,
+206,There's Still Tomorrow,Paola Cortellesi,"Giulia Calenda,Furio Andreotti,Paola Cortellesi",Comedy,,118,7.9,8.3,,26.156,,
+207,Strays,Josh Greenbaum,Dan Perrault,Adventure,R,93,6.3,,23.989,35.949,08.20.2023,8.248
+208,The Nun II,Michael Chaves,"Akela Cooper,Richard Naing,Ian Goldberg",Horror,R,110,5.6,38,86.267,268.067,09.10.2023,32.603
+209,The Little Mermaid,Rob Marshall,"David Magee,Hans Christian Andersen,John Musker",Adventure,PG,135,7.2,250,298.172,569.626,05.28.2023,95.578
+210,Bihter,"Caner Alper,Mehmet Binay",Merve Göntem,Drama,,113,3.5,,,,,
+211,Silent Night,John Woo,Robert Archer Lynn,Action,R,104,6.5,,,,,
+212,Renfield,Chris McKay,"Ava Tramer(uncredited),Ava Tramer,Robert Kirkman,Ryan Ridley",Comedy,R,93,6.4,65,17.153,26.349,04.16.2023,8.026
+213,PAW Patrol: The Mighty Movie,Cal Brunker,"Bob Barlen,Shane Morris,Cal Brunker",Action,PG,88,6,30,65.231,194.131,10.01.2023,22.764
+214,Fast X,"Justin Lin(began filming, was replaced) (uncredited),Louis Leterrier,Justin Lin","Dan Mazeau,Zach Dean,Justin Lin",Action,PG-13,141,5.8,340,145.961,704.71,05.21.2023,67.017
+215,The Kill Room,Nicol Paone,Jonathan Jacobson,Comedy,R,98,5.4,6.5,0.139,0.793,10.01.2023,0.083
+216,The Exorcist: Believer,David Gordon Green,"Peter Sattler,David Gordon Green,Scott Teems",Horror,R,111,4.8,30,65.536,135.022,10.08.2023,26.498
+217,BlackBerry,Matt Johnson,"Jacquie McNish,Matt Johnson,Sean Silcoff",Biography,R,2,7.4,,1.477,1.976,05.14.2023,0.492
+218,David Holmes: The Boy Who Lived,Dan Hartley,,Documentary,,87,7.8,,,,,
+219,The Last Voyage of the Demeter,André Øvredal,"Zak Olkewicz,Bragi F. Schut,Bram Stoker",Fantasy,R,118,6.1,45,13.637,21.786,08.13.2023,6.505
+220,The Caine Mutiny Court-Martial,William Friedkin,"William Friedkin,Herman Wouk",Drama,TV-14,108,6.9,,,,,
+221,Red Rooms,Pascal Plante,Pascal Plante,Thriller,,118,7.3,,,,,
+222,A Good Person,Zach Braff,Zach Braff,Drama,R,128,7,,2.21,2.689,03.26.2023,0.832
+223,Jesus Revolution,"Jon Erwin,Brent McCorkle","Greg Laurie,Ellen Vaughn,Jon Gunn",Drama,PG-13,2,7.1,,52.103,54.236,02.26.2023,15.882
+224,The Girl Who Escaped: The Kara Robinson Story,Simone Stock,Haley Harris,Crime,TV-14,88,6.2,,,,,
+225,Wonderwell,Vlad Marsavin,,Drama,PG-13,96,4.7,,,,,
+226,Femme,"Sam H. Freeman,Ng Choon Ping","Sam H. Freeman,Ng Choon Ping",Thriller,,99,7.7,,,,,
+227,Rocky Aur Rani Kii Prem Kahaani,Karan Johar,"Sumit Roy,Shashank Khaitan,Ishita Moitra",Comedy,Not Rated,168,6.7,,,5.627,,
+228,Justice League: Warworld,Jeff Wamester,"Josie Campbell,Jeremy Adams,Ernie Altbacker",Action,R,89,5.3,,,,,
+229,Da 'Partments,Tip 'T.I.' Harris,"Malcolm Champ Heaggans,Tip 'T.I.' Harris",Comedy,,79,9.2,0.06,,,,
+230,Control,Gene Fallaize,Gene Fallaize,Action,,,,,,,,
+231,Slotherhouse,Matthew Goodhue,"Cady Lanigan,Bradley Fowler",Comedy,PG-13,93,4.8,,,0.123,,
+232,Organ Trail,Michael Patrick Jann,Meg Turner,Drama,R,112,5,,,,,
+233,You Hurt My Feelings,Nicole Holofcener,Nicole Holofcener,Comedy,R,93,6.6,,4.831,5.699,05.28.2023,1.396
+234,Origin,Ava DuVernay,"Ava DuVernay,Isabel Wilkerson",Drama,PG-13,135,6.1,,,,,
+235,Your Place or Mine,Aline Brosh McKenna,Aline Brosh McKenna,Comedy,PG-13,109,5.7,,,,,
+236,Down Low,Rightor Doyle,"Phoebe Fisher,Lukas Gage",Comedy,R,90,5.2,,,,,
+237,White Men Can't Jump,Calmatic,"Doug Hall,Ron Shelton,Kenya Barris",Comedy,R,101,5.1,,,,,
+238,The Ritual Killer,George Gallo,"Joe Lemmon,Giorgia Iannone,Francesco Cinquemani",Crime,,92,4.3,17,,0.32,,
+239,In the Land of Saints and Sinners,Robert Lorenz,"Terry Loane,Mark Michael McNally",Action,R,106,6.2,,,0.031,,
+240,Scrapper,Charlotte Regan,Charlotte Regan,Comedy,Not Rated,84,7.1,,0.211,1.216,08.27.2023,0.014
+241,Peter Pan & Wendy,David Lowery,"J.M. Barrie,David Lowery,Toby Halbrooks",Action,PG,106,4.4,,,,,
+242,The Good Mother,Miles Joris-Peyrafitte,"Miles Joris-Peyrafitte,Madison Harrison",Crime,R,90,4.7,,0.503,0.533,09.03.2023,0.322
+243,Night of the Hunted,Franck Khalfoun,"Rubén Ávila Calvo,Glen Freyer,Franck Khalfoun",Horror,,95,5.3,,,0.237,,
+244,Landscape with Invisible Hand,Cory Finley,"M.T. Anderson,Cory Finley",Comedy,R,105,5.9,,0.203,0.203,08.20.2023,0.097
+245,Black Noise,Philippe Martinez,"Sean-Michael Argo,Leigh Scott,Philippe Martinez",Action,R,86,2.6,,,,,
+246,In the Fire,Conor Allyn,"Conor Allyn,Pascal Borno,Silvio Muraglia",Thriller,R,87,2.8,,,0.022,,
+247,Elena Knows,Anahí Berneri,Gabriela Larralde,Drama,TV-MA,100,5.5,,,,,
+248,Awareness,Daniel Benmayor,"Daniel Benmayor,Ivan Ledesma",Mystery,,112,5.3,,,,,
+249,Albert Brooks: Defending My Life,Rob Reiner,,Documentary,,88,7.5,,,,,
+250,A Christmas Vintage,Lexi Giovagnoli,"Ferguson Sauvé-Rogan,Elizabeth Snoderly",Romance,,,5.7,,,,,
+251,80 for Brady,Kyle Marvin,"Sarah Haskins,Emily Halpern",Biography,PG-13,98,5.8,28,39.331,40.363,02.05.2023,12.702
+252,Crime Diaries: The Celebrity Stylist,Jacques Toulemonde Vidal,Jacques Toulemonde Vidal,Crime,,90,4.6,,,,,
+253,Doi Boy,Nontawat Numbenchapol,"Prakit Laemluang,Homsap Chanchana,Prasongsom Koonsombat",Drama,TV-MA,98,5.7,,,,,
+254,The Last Kingdom: Seven Kings Must Die,Edward Bazalgette,"Martha Hillier,Bernard Cornwell",Action,TV-MA,111,6.9,,,,,
+255,Dunki,Rajkumar Hirani,"Abhijat Joshi,Kanika Dhillon,Rajkumar Hirani",Comedy,,160,,,,,,
+256,The Three Musketeers: Milady,Martin Bourboulon,"Matthieu Delaporte,Alexandre de La Patellière,Alexandre Dumas",Action,,115,7.4,36,,,,
+257,Little Bone Lodge,Matthias Hoene,,Crime,R,93,6.1,,,0.045,,
+258,Concrete Utopia,Tae-hwa Eom,"Lee Shin-ji,Tae-hwa Eom",Action,,130,6.7,18,,28.859,,
+259,Yaariyan 2,"Radhika Rao,Vinay Sapru","Radhika Rao,Vinay Sapru",Comedy,,148,8.1,1000,,0.006,,
+260,Migration,"Benjamin Renner,Guylo Homsy","Mike White,Benjamin Renner",Action,PG,82,,,,,,
+261,How to Have Sex,Molly Manning Walker,Molly Manning Walker,Drama,,91,7.1,,,0.892,,
+262,Fingernails,Christos Nikou,"Stavros Raptis,Sam Steiner,Christos Nikou",Drama,R,113,5.9,,,0.014,,
+263,Infinity Pool,Brandon Cronenberg,Brandon Cronenberg,Crime,R,117,6,,5.078,5.183,01.29.2023,2.514
+264,Nowhere,Albert Pintó,"Ernest Riera,Miguel Ruz,Indiana Lista",Drama,TV-MA,109,6.3,,,,,
+265,No One Will Save You,Brian Duffield,Brian Duffield,Horror,PG-13,93,6.3,,,,,
+266,The Color Purple,Blitz Bazawule,"Marsha Norman,Alice Walker,Marcus Gardley",Drama,PG-13,,,,,,,
+267,Sukhee,Sonal Joshi,"Rupinder Inderjit,Radhika Anand,Paulomi Dutta",Drama,,139,6.9,,,0.015,,
+268,Hypnotic,Robert Rodriguez,"Robert Rodriguez,Max Borenstein",Action,R,93,5.5,70,4.5,15.743,05.14.2023,2.402
+269,Meg 2: The Trench,Ben Wheatley,"Jon Hoeber,Dean Georgaris,Erich Hoeber",Action,PG-13,116,5.1,129,82.6,395,08.06.2023,30.003
+270,Haunted Mansion,Justin Simien,Katie Dippold,Comedy,PG-13,123,6.1,150,67.653,117.45,07.30.2023,24.082
+271,Transformers: Rise of the Beasts,Steven Caple Jr.,"Josh Peters,Darnell Metayer,Joby Harold",Action,PG-13,127,6.1,200,157.066,438.966,06.11.2023,61.045
+272,Taylor Swift: The Eras Tour,Sam Wrench,,Documentary,PG-13,169,8.3,,178.244,248.934,10.15.2023,92.805
+273,The Bikeriders,Jeff Nichols,Jeff Nichols,Crime,R,116,7.6,,,,,
+274,Jaane Jaan,Sujoy Ghosh,"Raj Vasant,Sujoy Ghosh,Keigo Higashino",Crime,TV-MA,139,7,,,,,
+275,The Old Way,Brett Donowho,Carl W. Lucas,Action,R,95,5.5,,,0.06,,
+276,Freud's Last Session,Matt Brown,"Mark St. Germain,Matt Brown",Drama,PG-13,108,8.5,,,,,
+277,Sapta Sagaradaache Ello: Side B,Hemanth M. Rao,"Hemanth M. Rao,Gundu Shetty",Drama,,148,8.4,,,0.033,,
+278,Back on the Strip,Chris Spencer,"Eric Daniel,Chris Spencer",Comedy,R,117,4.3,,0.669,0.703,08.20.2023,0.411
+279,Blessings of Christmas,David Winning,Alfonso H. Moreno,Drama,,,7,,,,,
+280,Teen Wolf: The Movie,Russell Mulcahy,"Joseph P. Genier,Will Wallace,Jeff Davis",Action,TV-MA,140,5.6,,,,,
+281,One True Loves,Andy Fickman,"Taylor Jenkins Reid,Alex Jenkins Reid",Comedy,PG-13,100,5.4,,,0.256,,
+282,Coup de chance,Woody Allen,Woody Allen,Comedy,PG-13,93,6.6,,,4.166,,
+283,Hunger,Sitisiri Mongkolsiri,Kongdej Jaturanrasamee,Drama,TV-MA,146,6.6,,,,,
+284,V/H/S/85,"David Bruckner,Scott Derrickson(segment Dreamkill),Natasha Kermani(segment TKNOGD),Natasha Kermani,Scott Derrickson,David Bruckner(segment Total Copy)","C. Robert Cargill,Scott Derrickson,Zoe Cooper",Horror,,110,5.6,,,,,
+285,One Life,James Hawes,"Nick Drake,Lucinda Coxon",Biography,,110,7.5,,,,,
+286,How to Ruin the Holidays,Arlen Konopaki,Kevin Gillese,Comedy,,,,,,,,
+287,Renaissance: A Film by Beyoncé,"James B. Merryman,Beyoncé,Mark Ritchie",Beyoncé,Musical,,150,9.4,,,,,
+288,Jingle Smells,Daniel Lusko,"Logan Sekulow,Bart Scott",Comedy,,,4.9,,,,,
+289,Blood & Gold,Peter Thorwarth,"Stefan Barth,Peter Thorwarth",Action,TV-MA,98,6.5,,,,,
+290,Pulimada,A.K. Sajan,A.K. Sajan,Comedy,,110,5.7,,,0.005,,
+291,Fitting In,Molly McGlynn,Molly McGlynn,Comedy,R,105,7.5,,,,,
+292,Birth/Rebirth,Laura Moss,"Laura Moss,Brendan J. O'Brien",Drama,R,98,6.2,,0.139,0.139,08.20.2023,0.046
+293,Shrapnel,William Kaufman,"Chad Law,Johnny Walters",Action,R,89,5,3,,,,
+294,Somebody I Used to Know,Dave Franco,"Dave Franco,Alison Brie",Comedy,R,106,5.7,,,,,
+295,Smoke Sauna Sisterhood,Anna Hints,Anna Hints,Documentary,,89,7.8,0.28,,0.056,,
+296,Dead Shot,"Charles Guard,Thomas Guard","Charles Guard,Thomas Guard,Ronan Bennett",Action,,92,5.4,,,0.004,,
+297,Ghost,Srini,"Maasthi Upparahalli,Srini,Prasanna VM",Action,,132,7.8,,,0.008,,
+298,The Queenstown Kings,Jahmil X.T. Qubeka,"Clyde Berning,Jahmil X.T. Qubeka",Drama,TV-MA,137,6.7,,,,,
+299,The Puppetman,Brandon Christensen,"Ryan Christensen,Matt Manjourides,Brandon Christensen",Horror,,96,5.3,1,,,,
+300,The Wandering Earth II,Frant Gwo,"Gong Geer,Frant Gwo,Yang Zhixue",Action,13+,173,6.9,162.14,5.023,8.855,,
+301,El Conde,Pablo Larraín,"Guillermo Calderón,Pablo Larraín",Comedy,R,110,6.5,,,,,
+302,Operation Napoleon,Óskar Thór Axelsson,"Marteinn Thorisson,Arnaldur Indriðason",Thriller,,102,6.1,,0.002,0.468,08.13.2023,0.001
+303,The Other Zoey,Sara Zandieh,Matthew Tabak,Comedy,PG-13,91,5.8,,0.168,0.168,10.22.2023,0.071
+304,Love at First Sight,Vanessa Caswill,"Jennifer E. Smith,Katie Lovejoy",Drama,PG-13,91,6.8,,,,,
+305,My Fault,Domingo González,"Mercedes Ron,Domingo González",Drama,,117,6.2,,,,,
+306,Wingwomen,Mélanie Laurent,"Mélanie Laurent,Cédric Anger,Christophe Deslandes",Action,TV-MA,116,5.6,,,,,
+307,Beau Is Afraid,Ari Aster,Ari Aster,Comedy,R,179,6.8,35,8.177,11.48,04.16.2023,0.32
+308,Shazam! Fury of the Gods,David F. Sandberg,"Henry Gayden,Chris Morgan,Bill Parker",Action,PG-13,130,6,125,57.638,133.838,03.19.2023,30.111
+309,Mangalavaaram,Ajay Bhupathi,"Ajay Bhupathi,Kalyan Raghav Pasapula,Tajuddin Syed",Action,,145,7,,,0.038,,
+310,Kaathal - The Core,Jeo Baby,"Paulson Skaria,Adarsh Sukumaran",Crime,,114,8.3,,,0.042,,
+311,The Beast,Bertrand Bonello,"Bertrand Bonello,Guillaume Bréaud,Benjamin Charbit",Drama,,146,6.5,,,,,
+312,Americana,Tony Tost,Tony Tost,Action,,110,7.8,,,,,
+313,Fear the Night,Neil LaBute,Neil LaBute,Action,,92,4.8,,,0.03,,
+314,There's Something Wrong with the Children,Roxanne Benjamin,"T.J. Cimfel,David White",Horror,Not Rated,92,5,,,,,
+315,Mavka: The Forest Song,"Oleksandra Ruban,Yevheniy Yermak,Oleh Malamuzh","Yaroslav Voytseshek,Lesya Ukrainka",Animation,,99,6.6,,,17.821,,
+316,All Fun and Games,"Eren Celeboglu,Ari Costa","Eren Celeboglu,Ari Costa,J.J. Braider",Horror,,76,4.4,,,1.198,,
+317,Oracle,Daniel di Grado,"Jaime Primak Sullivan,Corey Harrell,Michael Arlen Ross",Horror,R,85,4.9,,,,,
+318,Assassin,Jesse Atlas,"Aaron Wolfe,Jesse Atlas",Action,R,88,3.2,,,0.066,,
+319,Rotting in the Sun,Sebastián Silva,"Pedro Peirano,Sebastián Silva",Comedy,Unrated,109,6.9,,,0.015,,
+320,Bhagavanth Kesari,Anil Ravipudi,Anil Ravipudi,Action,,164,6.6,,,0.088,,
+321,If You Were the Last,Kristian Mercado,Angela Bourassa,Comedy,TV-MA,92,6.2,,,,,
+322,The Mission,"Amanda McBaine,Jesse Moss","Amanda McBaine,Jesse Moss",Documentary,PG-13,103,7,,0.058,0.07,10.15.2023,0.03
+323,Cyberbunker: The Criminal Underworld,"Kilian Lieb,Max Rainer","Max Rainer,Kilian Lieb",Documentary,,101,6.5,,,,,
+324,Irugapatru,Yuvaraj Dhayalan,Yuvaraj Dhayalan,Drama,,153,8.2,,,0.014,,
+325,DogMan,Luc Besson,Luc Besson,Drama,R,113,6.7,20,,3.513,,
+326,We Have a Ghost,Christopher Landon,"Geoff Manaugh,Christopher Landon",Adventure,PG-13,126,6.1,,,,,
+327,Girls on Film,Robin Bain,Robin Bain,Drama,,97,7.4,,,,,
+328,Target,Park Hee-kon,,Crime,,101,6.6,,,3.019,,
+329,The Dirty South,Matthew Yerby,Matthew Yerby,Action,,107,7.6,,,,,
+330,Appendage,Anna Zlokovic,Anna Zlokovic,Drama,TV-MA,94,5.3,,,,,
+331,Asterix & Obelix: The Middle Kingdom,Guillaume Canet,"René Goscinny,Guillaume Canet,Albert Uderzo",Adventure,TV-PG,112,5.1,62,,46.498,,
+332,Havoc,Gareth Evans,Gareth Evans,Action,TV-PG,112,,,,,,
+333,The Tank,Scott Walker,Scott Walker,Horror,R,100,4.6,,,0.086,,
+334,Chaver,Tinu Pappachan,Joy Mathew,Crime,,128,7.1,,,0.061,,
+335,Khichdi 2,Aatish Kapadia,Aatish Kapadia,Adventure,,121,5.9,,,0.028,,
+336,Vacation Friends 2,Clay Tarver,"Tom Mullen,Clay Tarver,Tim Mullen",Action,R,106,5.3,,,,,
+337,Heist 88,Menhaj Huda,Dwayne Johnson-Cochran,Crime,,83,5.3,,,,,
+338,Buddy Games: Spring Awakening,Josh Duhamel,"Rachael Thoele,Gabriel McKinley",Comedy,R,91,4.5,,,,,
+339,Firebrand,Karim Aïnouz,"Henrietta Ashworth,Rosanne Flynn,Jessica Ashworth",Drama,,2,6.4,,,,,
+340,Invitation to a Murder,Stephen Shimek,"Jerome Reygner-Kalfon,Jerome Reygner-Kalfon(uncredited),Gérard Miller,Brian O'Donnell",Mystery,PG-13,92,5.1,,,,,
+341,The Palace,Roman Polanski,"Roman Polanski,Jerzy Skolimowski,Ewa Piaskowska",Comedy,,100,5.2,21,,0.57,,
+342,Last Summer,Catherine Breillat,"Maren Louise Käehne,Pascal Bonitzer,Catherine Breillat",Drama,,104,6.7,,,0.87,,
+343,Forever,Anders Hazelius,Jessika Jankert,Drama,,103,6.2,,,,,
+344,Holiday Twist,Stephanie Garvin,,Comedy,PG,95,9.3,,,,,
+345,The Book of Clarence,Jeymes Samuel,Jeymes Samuel,Adventure,,136,,,,,,
+346,Boy Kills World,Moritz Mohr,"Tyler Burton Smith,Moritz Mohr,Arend Remmers",Action,R,115,6.4,,,,,
+347,Little Dixie,John Swab,John Swab,Action,R,105,4.9,,,,,
+348,12th Fail,Vidhu Vinod Chopra,"Anurag Pathak,Vidhu Vinod Chopra,Jaskunwar Kohli",Biography,,147,9.2,,,0.131,,
+349,65,"Bryan Woods,Scott Beck","Scott Beck,Bryan Woods",Action,PG-13,93,5.4,45,32.063,60.731,03.12.2023,12.328
+350,Eileen,William Oldroyd,"Ottessa Moshfegh,Luke Goebel",Drama,R,97,6.8,16,,,,
+351,Cobweb,Samuel Bodin,Chris Thomas Devlin,Horror,R,88,6,,,8.053,,
+352,Ant-Man and the Wasp: Quantumania,Peyton Reed,"Stan Lee,Jeff Loveness,Larry Lieber",Action,PG-13,124,6.1,200,214.505,476.071,02.19.2023,106.11
+353,Cocaine Bear,Elizabeth Banks,Jimmy Warden,Comedy,R,95,5.9,35,64.389,88.032,02.26.2023,23.261
+354,All of Us Strangers,Andrew Haigh,"Andrew Haigh,Taichi Yamada",Drama,R,105,,,,,,
+355,Evil Dead Rise,Lee Cronin,Lee Cronin,Horror,R,96,6.5,12,67.233,146.733,04.23.2023,24.504
+356,Chicken Run: Dawn of the Nugget,Sam Fell,"Rachel Tunnard,Karey Kirkpatrick,John O'Farrell",Animation,PG,101,7.6,,,,,
+357,Robots,"Anthony Hines,Casper Christensen","Robert Sheckley,Anthony Hines,Casper Christensen",Comedy,R,93,5.5,,,0.204,,
+358,Our Son,Bill Oliver,"Bill Oliver,Peter Nickowitz",Drama,R,104,7.3,,,,,
+359,The Starling Girl,Laurel Parmet,Laurel Parmet,Drama,R,117,6.7,,0.161,0.161,05.14.2023,0.024
+360,Love Is in the Air,Adrian Powers,"Adrian Powers,Katharine McPhee,Caera Bradshaw",Comedy,TV-14,88,5.6,,,,,
+361,The Recipe Files,Lindsay Hartley,Jennifer Snow,Mystery,,,8.2,,,,,
+362,Elf Me,Younuts,"Marcello Cavalli,Gabriele Mainetti,Giovanni Gualdoni",Adventure,,99,5.1,,,,,
+363,The Archies,"Zoya Akhtar,Ryan Brophy","Ayesha DeVitre,Zoya Akhtar,Farhan Akhtar",Comedy,,141,4.4,,,,,
+364,The Strays,Nathaniel Martello-White,Nathaniel Martello-White,Drama,TV-MA,100,4.8,,,,,
+365,Happy Ending,Joosje Duk,Joosje Duk,Comedy,TV-MA,92,5.4,,,,,
+366,Saptha Sagaradaache Ello - Side A,Hemanth M. Rao,"Gundu Shetty,Hemanth M. Rao",Drama,,142,8.3,,,0.037,,
+367,Sherlock Holmes 3,Dexter Fletcher,"Arthur Conan Doyle,Chris Brancato",Action,,142,,,,,,
+368,The Beanie Bubble,"Kristin Gore,Damian Kulash","Kristin Gore,Zac Bissonnette",Comedy,R,110,6.3,,,,,
+369,The End We Start From,Mahalia Belo,"Alice Birch,Megan Hunter",Drama,R,102,6.6,10,,,,
+370,The Monkey King,Anthony Stacchi,"Steve Bencich,Rita Hsiao,Ron J. Friedman",Action,PG,97,5.7,,,,,
+371,Til Death Do Us Part,Timothy Woodward Jr.,"Shane Dax Taylor,Chad Law",Action,,109,4.2,3,,0.114,,
+372,The Pod Generation,Sophie Barthes,Sophie Barthes,Comedy,PG-13,110,5.6,,0.032,0.053,08.13.2023,0.02
+373,Flamin' Hot,Eva Longoria,"Lewis Colick,Richard Montanez,Linda Yvette Chávez",Biography,PG-13,99,6.9,,,,,
+374,Spy Kids: Armageddon,Robert Rodriguez,"Robert Rodriguez,Racer Rodriguez",Action,PG,97,4.3,,,,,
+375,Through My Window: Across the Sea,Marçal Forés,"Ariana Godoy,Eduard Sola",Comedy,TV-MA,109,5,,,,,
+376,Maggie Moore(s),John Slattery,Paul Bernbaum,Comedy,R,99,6.1,,,0.086,,
+377,Divinity,Eddie Alcazar,Eddie Alcazar,Horror,,88,5.9,,0.101,0.101,10.15.2023,0.005
+378,Gadar 2,Anil Sharma,Shaktimaan Talwar,Action,Not Rated,170,5.3,,,1.74,,
+379,The Passenger,Carter Smith,Jack Stanley,Thriller,Unrated,94,6.3,,,,,
+380,Bird Box: Barcelona,"Àlex Pastor,David Pastor","Àlex Pastor,David Pastor",Horror,TV-MA,112,5.3,,,,,
+381,Society of the Snow,J.A. Bayona,"J.A. Bayona,Jaime Marques,Nicolás Casariego",Adventure,R,144,7.7,,,,,
+382,The Animal Kingdom,Thomas Cailley,"Thomas Cailley,Pauline Munier",Adventure,,128,7.2,13,,8.084,,
+383,The Sweet East,Sean Price Williams,Nick Pinkerton,Drama,,104,6.9,,,,,
+384,97 Minutes,Timo Vuorensola,Pavan Grover,Thriller,,93,4.6,7,,0.519,,
+385,Sometimes I Think About Dying,Rachel Lambert,"Katy Wright-Mead,Stefanie Abel Horowitz,Kevin Armento",Comedy,PG-13,91,6.9,,,,,
+386,The Devil on Trial,Chris Holt,Chris Holt,Documentary,TV-MA,81,5.6,,,,,
+387,King of Killers,Kevin Grevioux,Kevin Grevioux,Action,R,92,4.2,,,0.136,,
+388,Crypt of Evil,"Miles Jonn-Dalton,Nikolai Malden","Nikolai Malden,Miles Jonn-Dalton,Geoff Alsopp",Horror,,,,,,,,
+389,Consecration,Christopher Smith,"Christopher Smith,Laurie Cook",Horror,R,91,5.2,,0.539,2.272,02.12.2023,0.33
+390,Surrounded,Anthony Mandler,"Justin Thomas,Andrew Pagana",Drama,R,100,5.9,,,,,
+391,Animal Crossing Christmas Festival: The Movie!,Devin Sanchez,,Animation,TV-Y,88,,,,,,
+392,Herd,Steven Pierce,"Steven Pierce,James Allerdyce",Action,,97,3.7,,,,,
+393,Uproar,"Paul Middleditch,Hamish Bennett","Paul Middleditch,Sonia Whiteman,Hamish Bennett",Drama,,110,7.8,,,0.477,,
+394,The Mill,Sean King O'Grady,Jeffrey David Thomas,Drama,,106,5.3,,,,,
+395,Daddio,Christy Hall,Christy Hall,Drama,R,101,7.8,,,,,
+396,Knights of the Zodiac,Tomasz Baginski,"Kiel Murray,Matt Stuecken,Josh Campbell",Action,PG-13,112,4.4,,1.09,6.986,05.14.2023,0.558
+397,My Big Fat Greek Wedding 3,Nia Vardalos,Nia Vardalos,Comedy,PG-13,92,5.2,,28.496,38.768,09.10.2023,10.029
+398,Starfish,Akhilesh Jaiswal,"Aditya Bhatnagar,Bina Nayak,Akhilesh Jaiswal",Drama,,121,9.3,,,,,
+399,Ghosted,Dexter Fletcher,"Rhett Reese,Paul Wernick,Chris McKenna",Action,PG-13,116,5.8,,,,,
+400,Animal,Sandeep Reddy Vanga,"Pranay Reddy Vanga,Suresh Bandaru,Saurabh Gupta",Action,,202,8.4,,,,,
+401,You Are So Not Invited to My Bat Mitzvah,Sammi Cohen,"Alison Peck,Fiona Rosenbloom",Comedy,PG-13,103,6,,,,,
+402,Rumble Through the Dark,"Graham Phillips,Parker Phillips",Michael Farris Smith,Action,R,116,5.8,,,,,
+403,Fog City,Steve Wolsh,Steve Wolsh,Horror,,97,,,,,,
+404,20 Days in Mariupol,Mstyslav Chernov,Mstyslav Chernov,Documentary,TV-PG,95,8.7,,,0.021,,
+405,Skanda: The Attacker,Boyapati Srinu,"Boyapati Srinu,M. Rathnam",Action,,167,4.2,,,0.057,,
+406,Some Nudity Required,"Guy Crawford,Tray Goodman","Carrie Fee,Tray Goodman,Guy Crawford",Comedy,,101,4.6,,,,,
+407,The Crusades,Leo Milano,"Leo Milano,Shaun Early,Jack Hussar",Comedy,,102,5.7,,0.006,0.006,,
+408,Miami Bici 2,Jesús del Cerro,Alex Cotet,Comedy,,,5.1,2.2,,1.163,,
+409,The Unlikely Pilgrimage of Harold Fry,Hettie Macdonald,,Drama,,108,6.8,,,5.877,,
+410,Paint,Brit McAdams,Brit McAdams,Comedy,PG-13,96,4.9,,0.812,0.812,04.09.2023,0.571
+411,A Beautiful Life,Mehdi Avaz,Stefan Jaworski,Drama,TV-MA,98,6.4,,,,,
+412,Tuhog,GB Sampedro,"Marvic Kevin Reyes,GB Sampedro",Drama,,93,6,,,,,
+413,Don't Look Away,Micheal Bafaro,"Michael Mitton,Micheal Bafaro",Horror,,84,4,,0.061,,,
+414,White Bird,Marc Forster,"Mark Bomback,R.J. Palacio",Adventure,,2,7.8,,,,,
+415,Death on the Border,Wendy Wilkins,Wendy Wilkins,Crime,,95,3.7,,,,,
+416,The Pigeon Tunnel,Errol Morris,"Errol Morris,John le Carré",Documentary,PG-13,92,7,,,0.045,,
+417,Dante's Hotel,Anthony C. Ferrante,"Anthony C. Ferrante,William C. Martell",Horror,TV-MA,99,5.1,,,,,
+418,From the Ashes,Jeremy Wiles,Tiana Wiles,Crime,,,,1,,,,
+419,The Vaccine War,Vivek Agnihotri,Vivek Agnihotri,Drama,,161,7.6,,,0.038,,
+420,The Lady Bird Diaries,Dawn Porter,Julia Sweig,Documentary,,100,6.9,,,,,
+421,The Deepest Breath,Laura McGann,Laura McGann,Adventure,PG,108,7.7,,,,,
+422,The Adults,Dustin Guy Defa,Dustin Guy Defa,Comedy,R,91,5.7,,,,,
+423,The Kitchen,"Kibwe Tavares,Daniel Kaluuya","Daniel Kaluuya,Joe Murtagh",Adventure,R,107,7.7,,,,,
+424,The Channel,William Kaufman,"Paul Reichelt,William Kaufman",Action,,95,5.5,,,,,
+425,Die Hart,Eric Appel,Derek Kolstad,Action,TV-MA,84,5.1,,,,,
+426,A Thousand and One,A.V. Rockwell,A.V. Rockwell,Crime,R,117,7,,3.4,3.464,04.02.2023,1.796
+427,Señora Influencer,Carlos Santos,Carlos Santos,Comedy,,100,7.3,,,1.339,,
+428,Poolman,Chris Pine,"Ian Gotler,Chris Pine",Comedy,,100,5.3,,,,,
+429,Il migliore dei mondi,"Maccio Capatonda,Alessio Dogana,Danilo Carlani","Maccio Capatonda,Danilo Carlani,Gabriele Galli",Comedy,,102,6.3,,,,,
+430,Last Night of Amore,Andrea Di Stefano,Andrea Di Stefano,Drama,,124,7.2,9.5,0.004,4.823,09.17.2023,0.002
+431,Another Body,"Sophie Compton,Reuben Hamlyn","Sophie Compton,Reuben Hamlyn,Isabel Freeman",Documentary,,80,6.8,,0.014,0.024,10.22.2023,0.008
+432,Hard Feelings,Granz Henman,,Comedy,TV-MA,102,4.8,,,,,
+433,Run Rabbit Run,Daina Reid,Hannah Kent,Horror,TV-MA,100,5,,,0.325,,
+434,Occupied City,Steve McQueen,Bianca Stigter,Documentary,PG-13,246,7,,,,,
+435,Home for Rent,Sophon Sakdaphisit,"Tanida Hantaweewatana,Sophon Sakdaphisit",Horror,,124,6.6,,,1.721,,
+436,Knuckle Girl,Hong-Seung Yoon,"Soichiro Ojima,Sang-Young Jeon,Byeong-sik Jung",Action,,107,5.1,,,,,
+437,La Chimera,Alice Rohrwacher,"Alice Rohrwacher,Carmela Covino,Marco Pettenello",Adventure,,130,7.5,9.6,,0.103,,
+438,Winnie the Pooh: Blood and Honey,Rhys Frake-Waterfield,"A.A. Milne,Rhys Frake-Waterfield",Horror,Not Rated,84,2.9,0.1,1.751,4.941,02.19.2023,0.652
+439,"Red, White & Royal Blue",Matthew López,"Ted Malawer,Casey McQuiston,Matthew López",Comedy,R,118,7,,,,,
+440,She Came to Me,Rebecca Miller,Rebecca Miller,Comedy,R,102,6,,0.734,0.953,10.08.2023,0.356
+441,Retribution,Nimród Antal,"Alberto Marini,Christopher Salmanpour",Action,R,91,5.3,20,6.938,18.691,08.27.2023,3.519
+442,Fool's Paradise,Charlie Day,Charlie Day,Comedy,R,98,4.7,,0.855,0.878,05.14.2023,0.464
+443,Candy Cane Lane,Reginald Hudlin,Kelly Younger,Comedy,PG,117,5.6,,,,,
+444,The Great Indian Family,Vijay Krishna Acharya,Vijay Krishna Acharya,Family,,112,6.1,,,0.073,,
+445,Plane,Jean-François Richet,"J.P. Davis,Charles Cumming",Action,R,107,6.5,,32.111,74.516,01.15.2023,10.265
+446,After Everything,Castille Landon,"Castille Landon,Anna Todd",Drama,R,93,4.6,,,10.641,,
+447,Mob Land,Nicholas Maggio,"Nicholas Maggio,Rob Healy",Action,R,111,5.2,,,0,,
+448,Bad CGI Gator,Danny Draven,Zalman Band,Comedy,,58,5.7,,,,,
+449,The Christmas Classic,Shane Dax Taylor,"Shane Dax Taylor,Austin Nichols",Comedy,,86,7.5,,,,,
+450,A Little White Lie,Michael Maren,"Chris Belden,Michael Maren",Comedy,R,101,5.9,,,0.022,,
+451,Ehrengard: The Art of Seduction,Bille August,"Karen Blixen,Anders Frithiof August",Comedy,TV-MA,94,5.8,,,,,
+452,Kelce,Don Argott,,Documentary,,103,8.2,,,,,
+453,The Stones and Brian Jones,Nick Broomfield,"Marc Hoeferlin,Nick Broomfield",Documentary,,93,7.2,0.26,0.051,0.051,11.19.2023,0.041
+454,Supercell,Herbert James Winterstern,"Herbert James Winterstern,Anna Elizabeth James",Action,PG-13,100,4.4,,,0.047,,
+455,Inside Man,Danny A. Abeckaser,Kosta Kondilopoulos,Crime,,91,5.5,10,,0,,
+456,Chapter X,Christopher Scott Bradshaw,Christopher Scott Bradshaw,Drama,,100,4.2,0.02,,,,
+457,Cassandro,Roger Ross Williams,"Roger Ross Williams,David Teague",Biography,R,107,6.5,,,,,
+458,A Holiday I Do,"Alicia Schnieder,Paul Schneider","Melinda Bryce,Alicia Schnieder,Paul Schneider",Comedy,,,7.1,,,,,
+459,My Happy Marriage,Ayuko Tsukahara,"Tsukiho Tsukioka,Akumi Agitogi,Tomoe Kanno",Drama,,115,6.9,,,19.506,,
+460,The Disappearance of Shere Hite,Nicole Newnham,,Documentary,R,116,8.3,,0.021,0.021,11.19.2023,0.016
+461,Bank of Dave,Chris Foggin,Piers Ashworth,Biography,PG-13,107,7,,,0.621,,
+462,Deliver Us,"Lee Roy Kunz,Cru Ennis","Lee Roy Kunz,Kane Kunz",Horror,Unrated,103,4.7,,0.005,0.005,10.01.2023,0.003
+463,Wicked Little Letters,Thea Sharrock,Jonny Sweet,Comedy,,102,7.6,,,0.012,,
+464,Merry Little Batman,Mike Roth,"Jase Ricci,Etan Cohen,Morgan Evans",Animation,,,,,,,,
+465,Hurricane Season,Elisa Miller,"Fernanda Melchor,Daniela Gómez,Elisa Miller",Drama,TV-MA,99,5.6,,,,,
+466,My Name Is Shruthi,Srinivas Omkar,Srinivas Omkar,Thriller,,130,8.8,,,,,
+467,Mars Express,Jérémie Périn,"Laurent Sarfati,Jérémie Périn",Action,,85,7.7,6.7,,0.38,,
+468,Mayhem!,Xavier Gens,"Guillaume Lemans,Xavier Gens,Magali Rossitto",Action,,99,6.4,4.92,,1.531,,
+469,Dear David,John McPhail,"Adam Ellis,Evan Turner,Mike Van Waes",Horror,R,94,4,,,0.267,,
+470,Bad Boy,Rajkumar Santoshi,"Ranjit Kapoor,Sanjeev",Comedy,,122,7.2,,,,,
+471,The Piper,Anthony Waller,"Duncan Kennedy,Anthony Waller",Fantasy,R,105,6.1,,,,,
+472,COVID,Christopher Broughton,"Kira Madallo Sesay,Christopher Broughton",Thriller,,,,10,,,,
+473,It Came from Dimension X,Ciaron Davies,Ciaron Davies,Comedy,,90,,,,,,
+474,Shortcomings,Randall Park,,Comedy,R,92,6.5,,0.675,0.686,08.06.2023,0.301
+475,Sirona,Wesley Clark,Wesley Clark,Mystery,,100,3.7,0.07,,,,
+476,Do Not Disturb,Cem Yilmaz,Cem Yilmaz,Comedy,TV-MA,114,6.3,,,,,
+477,The Persian Version,Maryam Keshavarz,Maryam Keshavarz,Comedy,R,107,6.8,,0.548,0.548,10.22.2023,0.076
+478,The Loch Ness Horror,Tyler-James,Tyler-James,Action,,79,3.5,,,,,
+479,Zom 100: Bucket List of the Dead,Yûsuke Ishida,"Kotaro Takata,Haro Aso,Tatsuro Mishima",Action,TV-MA,128,5.5,,,,,
+480,Spider-Man: Lotus,Gavin J. Konop,"Warden Wayne,Sean Thomas Reid,Gavin J. Konop",Action,,2,3.3,0.13,,,,
+481,Jules,Marc Turtletaub,Gavin Steckler,Comedy,PG-13,87,6.8,,1.925,1.969,08.13.2023,0.84
+482,Foe,Garth Davis,"Garth Davis,Iain Reid",Drama,R,110,5.3,,,0.221,,
+483,Operation Fortune: Ruse de Guerre,Guy Ritchie,"Guy Ritchie,Marn Davies,Ivan Atkinson",Action,R,114,6.3,50,6.496,49.092,03.05.2023,3.14
+484,The Old Oak,Ken Loach,Paul Laverty,Drama,,113,7.1,,,4.588,,
+485,Memory,Michel Franco,Michel Franco,Drama,R,100,7,0.1,,,,
+486,Your Lucky Day,Dan Brown,Dan Brown,Thriller,R,89,5.8,,0.018,0.018,11.12.2023,0.014
+487,Kill Boksoon,Sung-hyun Byun,Sung-hyun Byun,Action,TV-MA,137,6.6,,,,,
+488,Waitress: The Musical,"Brett Sullivan,Diane Paulus","Adrienne Shelly,Jessie Nelson",Comedy,,144,7.1,,,,,
+489,Heir of the Witch,Victoria U Bell,Victoria U Bell,Horror,R,94,5.1,,,,,
+490,Fremont,Babak Jalali,"Babak Jalali,Carolina Cavalli",Drama,,91,7,,0.268,0.306,08.27.2023,0.021
+491,Fuck Them All! The Story of Heaven and Hell. The Making of a Ballet,Nick Peterson,Nick Peterson,Biography,,200,2.5,,,,,
+492,Vindicta,Sean McNamara,"Steven Paul,Ian Neligh",Horror,R,87,4.3,,,,,
+493,Reporting for Christmas,Jack C. Newell,Adam Rockoff,Drama,,86,5.8,,,,,
+494,The Convert,Lee Tamahori,"Shane Danielsen,Michael Bennett,Lee Tamahori",Action,,119,8,,,,,
+495,Johnny & Clyde,Tom DeNucci,"Tom DeNucci,Nick Principe",Action,,100,3.3,,,,,
+496,War of the Worlds: The Attack,Junaid Syed,"Tom Jolliffe,Junaid Syed",Sci-Fi,,85,3.3,,,,,
+497,Mad,Kalyan Shankar,"Kalyan Shankar,Praveen Pattu,Pranay Rao",Comedy,,127,7.5,,,0.025,,
+498,Give Me Your Eyes,Gary Auerbach,"Kevin Tavolaro,Julie Auerbach",Thriller,,,4.8,,,,,
+499,Diary of a Wimpy Kid Christmas: Cabin Fever,Luke Cormican,"Kathleen Shugrue,Jeff Kinney",Animation,PG,95,,,,,,
+500,Perfect Addiction,Castille Landon,"Claudia Tan,Stephanie Sanditz",Action,R,107,5.5,,,,,
+501,Israelism,"Erin Axelman,Sam Eilertsen","Sam Eilertsen,Erin Axelman",Documentary,,84,6,,,,,
+502,Tayuan,Topel Lee,Michelle Ngu,Drama,,102,4.9,,,,,
+503,Meksika Açmazi,Alper Mestçi,"Anlatanadam,Mesut Süre,Fazli Polat",Comedy,,,5.9,,,0.163,,
+504,T.I.M.,Spencer Brown,"Sarah Govett,Spencer Brown",Sci-Fi,,101,5.5,,,0.006,,
+505,AKA,Morgan S. Dalibert,"Alban Lenoir,Morgan S. Dalibert",Action,TV-MA,122,6.6,,,,,
+506,The New Boy,Warwick Thornton,Warwick Thornton,Drama,,116,5.7,,,0.631,,
+507,True Spirit,Sarah Spillane,"Rebecca Banner,Sarah Spillane,Cathy Randall",Adventure,TV-PG,109,6.8,,,,,
+508,The Forest Hills,Scott Goldberg,"Scott Goldberg,Scott B. Hansen",Drama,,82,7.8,,,,,
+509,Shooting Stars,Chris Robinson,"Frank E. Flowers,Tony Rettenmaier,Juel Taylor",Biography,PG-13,116,6.5,,,,,
+510,Founders Day,Erik Bloomquist,"Erik Bloomquist,Carson Bloomquist",Horror,R,106,7.1,,,,,
+511,Accused,Philip Barantini,"James Cummings,Barnaby Boulton",Thriller,,88,6.4,,,0.107,,
+512,He Killed in Ecstasy,Nikolai Malden,"Miles Jonn-Dalton,Nikolai Malden",Horror,,80,,,,,,
+513,American Symphony,Matthew Heineman,,Documentary,PG-13,104,7.3,,,,,
+514,"Miraculous: Ladybug & Cat Noir, the Movie",Jeremy Zag,"Bettina Lopez Mendoza,Jeremy Zag",Action,PG,105,6.1,80,,39.527,,
+515,Choose Love,Stuart McDonald,,Comedy,TV-14,77,5,,,,,
+516,Oppenheimer: The Real Story,Robin Bextor,Robin Bextor,Documentary,,96,7.2,,,,,
+517,The Nature of Love,Monia Chokri,Monia Chokri,Comedy,,110,7.3,,,1.338,,
+518,Dangerous Waters,John Barr,"John Barr,Mark Jackson",Thriller,,101,5.2,,,0.333,,
+519,North Star,Kristin Scott Thomas,"John Micklethwait,Kristin Scott Thomas",Drama,,95,6.9,,,,,
+520,Dead Man's Hand,Brian Skiba,"Matthew Minor,Corin Nemec,Kevin Minor",Western,R,96,3.9,,,,,
+521,The Kerala Story,"Sudipto Sen,Vipul Amrutlal Shah","Sudipto Sen,Suryapal Singh,Vipul Amrutlal Shah",Drama,,138,7.2,,,0.122,,
+522,The Canterville Ghost,"Kim Burdon,Robert Chandler","Cory Edwards,Keiron Self,Giles New",Animation,PG,89,7.2,,0.192,2.121,10.22.2023,0.15
+523,Ambush,Mark Burman,"Johnny Lozano,Mark Burman,Michael McClung",Action,R,104,4,,,0.026,,
+524,Kidnapped,Marco Bellocchio,"Marco Bellocchio,Edoardo Albinati,Susanna Nicchiarelli",Drama,,134,7.1,13,,3.664,,
+525,Vikings: Blood Lust,Greg Keith,"Greg Keith,Harry Boxley",Action,,82,2.9,,,,,
+526,The Critic,Anand Tucker,"Anthony Quinn,Patrick Marber",Crime,,95,6.6,,,,,
+527,Still: A Michael J. Fox Movie,Davis Guggenheim,Michael J. Fox,Documentary,R,95,8.1,,,,,
+528,Christmas on Cherry Lane,Gail Harvey,Rick Garman,Family,TV-G,,,,,,,
+529,A Christmas Frequency,Lindsay Hartley,Ansley Gordon,Romance,,,5.1,,,,,
+530,Jeanne du Barry,Maïwenn,"Maïwenn,Teddy Lussi-Modeste,Nicolas Livecchi",Biography,,113,6.7,22.4,,13.662,,
+531,The Boogeyman,Rob Savage,"Scott Beck,Bryan Woods,Mark Heyman",Horror,PG-13,98,5.9,35,43.244,67.307,06.04.2023,12.356
+532,Air,Ben Affleck,Alex Convery,Drama,R,111,7.4,90,52.46,90.06,04.09.2023,14.456
+533,"Are You There God? It's Me, Margaret.",Kelly Fremon Craig,"Kelly Fremon Craig,Judy Blume",Comedy,PG-13,106,7.4,30,20.372,21.464,04.30.2023,6.739
+534,Heart of Stone,Tom Harper,"Allison Schroeder,Greg Rucka",Action,PG-13,122,5.7,,,,,
+535,Take Care of Maya,Henry Roosevelt,,Documentary,TV-14,103,7.8,,,,,
+536,The Royal Hotel,Kitty Green,"Kitty Green,Oscar Redding",Thriller,R,91,5.9,,0.78,0.955,10.08.2023,0.331
+537,Insidious: The Red Door,Patrick Wilson,"Leigh Whannell,Scott Teems",Horror,PG-13,107,5.5,16,82.157,189.087,07.09.2023,33.013
+538,The Roundup: No Way Out,Lee Sang-yong,Kim Min-sung,Action,,105,6.6,,0.909,83.41,06.04.2023,0.193
+539,Lord of Misrule,William Brent Bell,Tom de Ville,Horror,,,6.8,,,0.337,,
+540,Rye Lane,Raine Allen-Miller,"Nathan Bryon,Tom Melia",Comedy,R,82,7.2,,,1.569,,
+541,A Little Life,"Ivo van Hove,Nick Wickham","Koen Tachelet,Hanya Yanagihara,Ivo van Hove",Drama,,220,8.5,,,1.842,,
+542,Sirf Ek Bandaa Kaafi Hai,Apoorv Singh Karki,Deepak Kingrani,Crime,,132,7.9,,,0,,
+543,Your Christmas or Mine 2,Jim O'Hanlon,Tom Parry,Comedy,,,,,,,,
+544,The Locksmith,Nicolas Harvard,"John Glosser,Blair Kroeber,Ben Kabialis",Action,,92,4.8,,,0.068,,
+545,Confidential Informant,Michael Oblowitz,"Michael Kaycheck,Michael Oblowitz,Brooke Nasser",Action,R,88,4.5,,,0.064,,
+546,Heaven in Hell,Tomasz Mandes,"Tomasz Mandes,Mojca Tirs",Drama,,2,3.9,,,2.104,,
+547,The Black Book,Editi Effiong,"Editi Effiong,Bunmi Ajakaiye",Thriller,TV-MA,124,5.2,1,,,,
+548,Condor's Nest,Phil Blattenberger,Phil Blattenberger,Action,R,102,4.5,,,0.002,,
+549,The Eternal Memory,Maite Alberdi,Maite Alberdi,Documentary,,85,7.9,,0.068,0.097,,
+550,Wildcat,Ethan Hawke,"Shelby Gaines,Ethan Hawke",Biography,,103,5.7,,,,,
+551,Break In,Peter Sullivan,"Peter Sullivan,Jeffrey Schenck",Thriller,,78,4,,,,,
+552,15 Cameras,Danny Madden,PJ McCabe,Horror,,89,5.1,,,,,
+553,Birthright Outlaw,Aaron Burns,"Aaron Burns,Justin Strawhand",Drama,PG-13,101,4.8,,,,,
+554,Police State,"Dinesh D'Souza,Bruce Schooley,Debbie D'Souza","Debbie D'Souza,Dinesh D'Souza,Bruce Schooley",Documentary,,110,5.8,,,,,
+555,The Tutor,Jordan Ross,Ryan King,Mystery,R,92,4.8,,,,,
+556,Chupa,Jonás Cuarón,"Joe Barnathan,Sean Kennedy Moore,Marcus Rinehart",Action,PG,95,5.5,,,,,
+557,His Three Daughters,Azazel Jacobs,Azazel Jacobs,Drama,R,101,7.3,,,,,
+558,Salaar,Prashanth Neel,"Choudary Hanuman,Prashanth Neel,Sandeep Reddy Bandla",Action,,170,,4000,,,,
+559,Cypher,Chris Moukarbel,Chris Moukarbel,Documentary,R,81,6.6,,,,,
+560,All Your Faces,Jeanne Herry,,Drama,,118,7.7,,,9.056,,
+561,Postcard from Earth,Darren Aronofsky,"Ari Handel,Darren Aronofsky",Sci-Fi,,,8.1,,,,,
+562,A Deadly Invitation,J.M Cravioto,"Anton Goenechea,Carmen Posadas,Javier Durán Pérez",Comedy,TV-14,92,5.1,,,,,
+563,Ganapath,Vikas Bahl,Vikas Bahl,Action,Not Rated,133,5.4,,,0.238,,
+564,On Fire,"Nick Lyon,Nick Lyon(a film by),Peter Facinelli","Ron Peer,Nick Lyon",Drama,PG-13,80,7,4,0.205,0.219,10.01.2023,0.135
+565,The Ghost Within,Lawrence Fowler,"Geoff Fowler,Lawrence Fowler",Horror,,103,3.8,,,0.319,,
+566,His Only Son,David Helling,David Helling,Drama,PG-13,106,5.7,0.25,12.393,13.82,04.02.2023,5.501
+567,Forever Young,Henk Pretorius,"Henk Pretorius,Greg Blyth,Jennifer Nicole Stang",Romance,,100,8.7,,,,,
+568,The Crypto,Joshua Carter,Joshua Carter,Action,13+,41,,0,,,,
+569,House Party,Calmatic,"Stephen Glover,Jamal Olori",Comedy,R,100,4.4,,9.002,9.285,01.15.2023,3.986
+570,Ransomed,Seong Hun Kim,"Kim Jung-Yeon,Jung-mi Yeo",Action,,132,6.5,,0.142,8.102,08.06.2023,0.045
+571,Knox Goes Away,Michael Keaton,Gregory Poirier,Thriller,,114,8.4,,,,,
+572,The Dead Don't Hurt,Viggo Mortensen,Viggo Mortensen,Drama,,129,8,,,,,
+573,The Cello,Darren Lynn Bousman,Turki Al Alshikh,Horror,R,2,6.8,17,,0.005,,
+574,Phantom Fun-World,Tory Jones,"Tory Jones,Jerron Spencer",Horror,,81,5,,,,,
+575,Kubi,Takeshi Kitano,,Action,,131,6.8,1500,,2.64,,
+576,Back in Action,Seth Gordon,"Seth Gordon,Brendan O'Brien",Action,,131,,,,,,
+577,Elevator Game,Rebekah McKendry,"David Ian McKendry,Travis Seppala",Horror,,94,4.2,,,0.302,,
+578,Rub,Christopher Fox,Christopher Fox,Crime,,105,5.4,,,,,
+579,Burning Betrayal,Diego Freitas,"Sue Hecker,Davi Kolb,Camila Raffanti",Drama,TV-MA,98,4,,,,,
+580,The Pope's Exorcist,Julius Avery,"R. Dean McCreary,Evan Spiliotopoulos,Michael Petroni",Horror,R,103,6.1,18,20.009,76.988,04.16.2023,9.006
+581,Knock at the Cabin,M. Night Shyamalan,"M. Night Shyamalan,Steve Desmond,Paul Tremblay",Horror,R,100,6.1,20,35.398,54.761,02.05.2023,14.127
+582,Freelance,Pierre Morel,Jacob Lentz,Action,R,108,5.4,40,5.314,8.669,10.29.2023,2.086
+583,Fallen Leaves,Aki Kaurismäki,Aki Kaurismäki,Comedy,,81,7.6,,0.115,2.102,11.19.2023,0.049
+584,After Death,"Chris Radtke,Stephen Gray",Stephen Gray,Documentary,PG-13,108,6.1,,11.461,11.461,10.29.2023,5.052
+585,The Zone of Interest,Jonathan Glazer,"Jonathan Glazer,Martin Amis",Drama,PG-13,105,8.1,,,,,
+586,Extraction II,Sam Hargrave,"Anthony Russo,Ande Parks,Joe Russo",Action,R,122,7,,,,,
+587,Lost Weekend,Frank Coraci,Benjamin Sutor,Comedy,,,,,,,,
+588,The Island,Shaun Paul Piccinino,"Michael Caissie,Philippe Martinez",Action,,93,4.3,,,0.04,,
+589,Bloodthirst,Michael Su,"Adrian Milnes,Massimiliano Cerchi",Action,R,88,4.6,,,,,
+590,Me Captain,Matteo Garrone,"Matteo Garrone,Massimo Ceccherini,Massimo Gaudioso",Drama,,121,7.7,12.11,,4.659,,
+591,Angela,Hugo Prata,Duda de Almeida,Biography,,104,5.5,,,,,
+592,Finally Dawn,Saverio Costanzo,Saverio Costanzo,Drama,,140,5.6,28.5,,,,
+593,Lion-Girl,Kurando Mitsutake,Kurando Mitsutake,Action,,121,5.2,1,,,,
+594,You're Killing Me,"Beth Hanna,Jerren Lauder","Brad Martocello,Walker Hare",Action,,94,5,,,,,
+595,Ezra,Tony Goldwyn,Tony Spiridakis,Comedy,R,100,7.7,,,,,
+596,Sheroes,Jordan Gertner,Jordan Gertner,Action,R,91,3.4,,,,,
+597,Shin Kamen Rider,Hideaki Anno,"Hideaki Anno,Shotaro Ishinomori",Action,Not Rated,121,6.1,,,15.788,,
+598,All Souls,Emmanuelle Pickett,Anthony Ragnone II,Crime,R,81,,,,,,
+599,A Creature Was Stirring,Damien LeVeck,Shannon Wells,Horror,R,,,,,,,
+600,Monsters of California,Tom DeLonge,"Ian Thomas Miller,Ian Miller,Tom DeLonge",Adventure,,110,4.7,,,,,
+601,Kill Shot,Ari Novak,"Ari Novak,Rib Hillis",Action,,93,4.8,,,0.001,,
+602,The Engineer,Danny A. Abeckaser,Kosta Kondilopoulos,Action,R,92,3.8,,,,,
+603,The Magician's Elephant,Wendy Rogers,"Kate DiCamillo,Martin Hynes",Animation,PG,99,6.5,,,,,
+604,How I Learned to Fly,Simon Steuri,Simon Steuri,Drama,,104,9.6,,,,,
+605,Rescuing Christmas,Emily Moss Wilson,"Jim Head,Sarah Montana",Comedy,,84,,,,,,
+606,The Crime Is Mine,François Ozon,"François Ozon,Georges Berr,Philippe Piazzo",Comedy,,102,6.6,13.7,,10.264,,
+607,Freddy's Fridays,Ben J. Williams,"Tom Carter,Charlie Carter",Horror,,77,3.5,,,,,
+608,Unlocked,Tae-joon Kim,"Akira Shiga,Tae-Joon Kim",Crime,TV-MA,117,6.4,,,,,
+609,Crater,Kyle Patrick Alvarez,John Griffin,Adventure,PG,105,5.3,53.4,,,,
+610,Transfusion,Matt Nable,Matt Nable,Action,R,106,5,,,0.095,,
+611,Tejas,Sarvesh Mewara,Sarvesh Mewara,Action,,112,6.9,,,0.042,,
+612,The Three Musketeers,Bill Thomas,"Bill Thomas,Dean Lines,Ray Bogdanovich",Action,,99,1.8,,,0.031,,
+613,Superpower,"Sean Penn,Aaron Kaufman",Volodymyr Zelenskyy,Documentary,,115,5.7,,,,,
+614,The Re-Education of Molly Singer,Andy Palmer,"Todd M. Friedman,Kevin Haskin",Comedy,R,2,6.6,,,,,
+615,Anselm,Wim Wenders,,Documentary,,93,7.2,,,0.658,,
+616,Lego Marvel Avengers: Code Red,Ken Cunningham,"Eugene Son,Harrison Wilcox",Action,TV-G,46,5.3,,,,,
+617,Cocaine Shark,Mark Polonia,Bando Glutz,Crime,Unrated,76,1.9,,,,,
+618,AIMEE: The Visitor,Charles Band,"Neal Marshall Stevens,Charles Band",Horror,Not Rated,69,4.7,,,,,
+619,BRZRKR,,"Keanu Reeves,Mattson Tomlin,Matt Kindt",Action,Not Rated,69,,,,,,
+620,Milli Vanilli,Luke Korem,,Documentary,TV-MA,106,7.5,,,,,
+621,Cade: The Tortured Crossing,Neil Breen,Neil Breen,Mystery,,96,7.4,,,,,
+622,Clock,Alexis Jacknow,Alexis Jacknow,Drama,,91,5,,,,,
+623,I.S.S.,Gabriela Cowperthwaite,Nick Shafir,Sci-Fi,R,95,7.1,,,,,
+624,Late Night with the Devil,"Cameron Cairnes,Colin Cairnes","Colin Cairnes,Cameron Cairnes",Horror,,86,7.5,,,,,
+625,Faraway,Vanessa Jopp,"Jane Ainscough,Alex Kendall",Comedy,TV-MA,109,6.7,,,,,
+626,Darkness of Man,James Cullen Bressack,"James Cullen Bressack,Alethea Hnatko-Cho,Jean-Claude Van Damme",Action,R,109,9.6,,,,,
+627,A Tourist's Guide to Love,Steven K. Tsuchida,Eirene Donohue,Adventure,TV-PG,94,5.7,,,,,
+628,Sakra,"Donnie Yen,Ka-Wai Kam","Chen Li,Louis Cha,He Ben",Action,R,130,5.7,,,0.729,,
+629,Tripped Up,Shruti Ganguly,"Cristina Catanzaro,Carrie Shaw",Comedy,,96,6,,,,,
+630,Doctor Jekyll,Joe Stephenson,Dan Kelly-Mulhern,Drama,,90,5.1,,,0.022,,
+631,The Lesson,Alice Troughton,Alex MacKeith,Thriller,R,103,6.4,,0.311,0.546,07.09.2023,0.167
+632,Night Train,Shane Stanley,CJ Walley,Action,PG-13,95,3.7,,,,,
+633,Hell House LLC Origins: The Carmichael Manor,Stephen Cognetti,Stephen Cognetti,Horror,,98,6.2,,,,,
+634,To Catch a Killer,Damián Szifron,"Jonathan Wakeham,Damián Szifron",Action,R,119,6.6,,,3.103,,
+635,The Great Escaper,Oliver Parker,William Ivory,Drama,,96,7,,,6.542,,
+636,A Million Miles Away,Alejandra Márquez Abella,"Bettina Gilois,Alejandra Márquez Abella,Hernán Jiménez",Biography,PG,121,7.3,,,,,
+637,Kannur Squad,Roby Varghese Raj,"Rony David,Muhammed Shafi",Action,,161,7.9,,,1.982,,
+638,Sly,Thom Zimny,Aidin Sayar Sarie,Documentary,R,95,7,,,,,
+639,Teri Meri Kahaniyaan,"Nadeem Baig,Nabeel Qureshi,Marina Khan","Fizza Ali Meerza,Ali Abbas Naqvi,Vasay Chaudhry",Comedy,,134,7,,,0.054,,
+640,The Surfer,Lorcan Finnegan,Thomas Martin,Thriller,,134,,,,,,
+641,Her: Chapter 1,Sreedhar Swaraghav,Sreedhar Swaraghav,Crime,,103,7.2,,,,,
+642,Un Amor,Isabel Coixet,"Isabel Coixet,Laura Ferrero,Sara Mesa",Drama,,129,7.1,,,0.621,,
+643,The Buckingham Murders,Hansal Mehta,"Kashyap Kapoor,Raghav Raj Kakker,Aseem Arrora",Thriller,,110,7.6,,,,,
+644,The Prince of Egypt: Live from the West End,"Brett Sullivan,Scott Schwartz",Philip LaZebnik,Drama,,144,7.9,,,0.305,,
+645,Mummies,Juan Jesús García Galocha,"Javier López Barreira,Jordi Gasull",Animation,PG,88,5.9,,4.276,54.376,02.26.2023,0.422
+646,Congrats My Ex!,Prueksa Amaruji,"Vikram Yashpal Malhotra,Vikram Malhotra,Prueksa Amaruji",Comedy,,98,6.6,3,,,,
+647,Dream Girl 2,Raaj Shaandilyaa,"Raaj Shaandilyaa,Naresh Kathooria",Comedy,,134,5.2,,,0.617,,
+648,The Portrait,Simon Ross,David Griffiths,Horror,R,86,9.2,,,,,
+649,The List,Melissa Miller Costanzo,"Rob Lederer,Steve Vitolo",Comedy,R,97,5.3,,,,,
+650,Friday the 13th: The Awakening,Oktober Layne,"Oktober Layne,Jeff Lee Spencer",Horror,,64,6.2,0.01,,,,
+651,Devil's Peak,Ben Young,"Robert Knott,David Joy",Adventure,,97,5.1,,,,,
+652,Darker Shades of Summer,Ntiarna Xavier Knight,"Scott Chambers,Craig McLearie",Romance,,80,3.1,,,,,
+653,That's a Wrap,Marcel Walz,"Robert L. Lucas,Joe Knetter",Horror,,94,5.5,,,,,
+654,Better Man,Michael Gracey,"Oliver Cole,Simon Gleeson,Michael Gracey",Biography,,,6.7,,,0.005,,
+655,Nunta pe bani,Cristian Ilisuan,"Mircea Popa,Cristi Ciui,Cristian Ilisuan",Comedy,,96,7.7,,,1.941,,
+656,Chor Nikal Ke Bhaga,Ajay Singh,"Amar Kaushik,Raj Kumar Gupta,Siraj Ahmed",Crime,TV-MA,110,7.4,,,,,
+657,The Perfect Find,Numa Perrier,"Tia Williams,Leigh Davenport",Comedy,TV-MA,99,5.2,,,,,
+658,Love in Taipei,Arvin Chen,"Mackenzie Dohr,Charlie Oh,Abigail Hing Wen",Comedy,TV-14,92,5.7,,,,,
+659,Mercy,Tony Dean Smith,Alex Wright,Action,R,85,4.7,5,,,,
+660,Darkland: The Return,Fenar Ahmad,"Behrouz Bigdeli,Fenar Ahmad",Action,Not Rated,110,6.5,2.8,,,,
+661,Limbo,Ivan Sen,Ivan Sen,Crime,,108,6.1,,,0.218,,
+662,Woman of the Hour,Anna Kendrick,Ian MacAllister McDonald,Crime,,89,7.8,,,,,
+663,The Childe,Park Hoon-jung,Park Hoon-jung,Action,,118,6.9,,0.102,5.992,07.02.2023,0.077
+664,Shepherd,Aaron Inman,Aaron Inman,Drama,,,,0.02,,,,
+665,The Psychopath Life Coach,Chris Hardman,Matt Hookings,Documentary,16+,87,2,1.8,,,,
+666,Close Your Eyes,Víctor Erice,"Víctor Erice,Michel Gaztambide",Drama,,169,7.6,,,0.647,,
+667,Satyaprem Ki Katha,Sameer Vidwans,Karan Shrikant Sharma,Comedy,,146,7.2,,,3.846,,
+668,Cobweb,Jee-woon Kim,"Jee-woon Kim,Yeon-Shick Shin",Comedy,,135,7,,,0.034,,
+669,Theater Camp,"Nick Lieberman,Molly Gordon","Noah Galvin,Nick Lieberman,Molly Gordon",Comedy,PG-13,92,7,,4.01,4.406,07.16.2023,0.301
+670,Pippa,Raja Menon,"Tanmay Mohan,Balram Singh Mehta,Raja Menon",Action,,139,6.2,,,,,
+671,57 Seconds,Rusty Cundieff,"Macon Blair,Rusty Cundieff,E.C. Tubb",Sci-Fi,R,99,5.3,,,0.365,,
+672,The Family Plan,Simon Cellan Jones,David Coggeshall,Action,PG-13,118,,,,,,
+673,Bholaa,Ajay Devgn,"Ankush Singh,Lokesh Kanagaraj,Aamil Keeyan Khan",Action,Not Rated,144,5.9,500,,0.138,,
+674,Max Lucado's Because of Bethlehem,Steve Gilreath,,,,,,,,,,
+675,Apocalypse Clown,George Kane,"George Kane,Shane O'Brien,Demian Fox",Comedy,,102,5.5,,,0.012,,
+676,Fear,Deon Taylor,"Deon Taylor,John Ferry",Horror,R,98,3.6,,2.09,2.09,01.29.2023,1.228
+677,Ala Ninnu Cheri,Maresh Shivan,Maresh Shivan,Action,,158,8.7,,,,,
+678,Showdown at the Grand,Orson Oblowitz,Orson Oblowitz,Action,,92,5.3,1.5,,,,
+679,Black Lotus,Todor Chapkanov,Tad Daggerhart,Action,,90,4.2,,,0.781,,
+680,Goodbye Julia,Mohamed Kordofani,Mohamed Kordofani,Drama,,2,7.9,,,0.065,,
+681,Soulmate,Young-Keun Min,"Yong-geun Min,Kang Hyun-joo",Drama,,124,7.5,,,2.472,,
+682,Death of a Unicorn,Alex Scharfman,Alex Scharfman,Comedy,,124,,,,,,
+683,Periodical,Lina Plioplyte,,Documentary,,93,8.2,,,,,
+684,Detective Knight: Independence,Edward Drake,"Edward Drake,Corey Large",Action,R,91,3.4,2,,0.036,,
+685,Salakab,Roman Perez Jr.,"Ruel Montañez,Roman Perez Jr.",Drama,,112,5.7,,,,,
+686,Sumotherhood,Adam Deacon,"Michael Vu,Adam Deacon,Jazzie Zonzolo",Comedy,,97,4.9,,,3.065,,
+687,Demon Slayer: Kimetsu No Yaiba - To the Swordsmith Village,Haruo Sotozaki,"Koyoharu Gotouge,Ufotable",Action,R,110,7.4,,10.118,56.119,03.05.2023,10.118
+688,Sam Bahadur,Meghna Gulzar,"Bhavani Iyer,Meghna Gulzar,Shantanu Srivastava",Biography,,150,8.4,,,,,
+689,Custody,Venkat Prabhu,"Venkat Prabhu,Abburi Ravi",Action,Not Rated,148,5.9,,,0.055,,
+690,At Midnight,Jonah Feingold,"Jonah Feingold,Giovanni M. Porta,Maria Hinojos",Comedy,R,100,5.6,,,,,
+691,Reagan,Sean McNamara,"Jonas McCord,Howard Klausner",Biography,,,,25,,,,
+692,Andragogy,Wregas Bhanuteja,Wregas Bhanuteja,Drama,TV-14,110,8.3,,,,,
+693,Sewu Dino,Kimo Stamboel,"Khalid Kashogi,Agasyah Karim,SimpleMan",Horror,,121,6.1,18000,,,,
+694,Alien Invasion,Fred Searle,Craig McLearie,Horror,,73,1.8,,,0.044,,
+695,Simon,Diego Vicentini,Diego Vicentini,Drama,,99,8.2,,,,,
+696,Gumraah,Vardhan Ketkar,Magizh Thirumeni,Action,Not Rated,130,6.5,,,0.094,,
+697,Four Daughters,Kaouther Ben Hania,Kaouther Ben Hania,Documentary,Not Rated,107,7.4,,0.038,0.854,10.29.2023,0.005
+698,King of Kotha,Abhilash Joshiy,Abhilash N. Chandran,Action,,174,6.1,,,0.844,,
+699,Love Reset,Da-Jung Nam,"Nam Dae-joong,Bang Gi-cheol",Comedy,,119,7.7,,,17.956,,
+700,Dhruva Natchathiram Chapter 1: Yuddha Kaandam,Gautham Vasudev Menon,"Gautham Vasudev Menon,Deepak Venkateshan",Action,,145,,,,0.001,,
+701,Joan Baez I Am a Noise,"Karen O'Connor,Miri Navasky,Maeve O'Boyle",,Documentary,,113,7,,0.641,0.641,10.08.2023,0.021
+702,Surprised by Oxford,Ryan Whitaker,"Ryan Whitaker,Carolyn Weber",Drama,Not Rated,107,6.6,,,0.025,,
+703,Ru,Charles-Olivier Michaud,"Jacques Davidts,Kim Thúy,Charles-Olivier Michaud",Drama,,2,8.1,,,,,
+704,Bad Behaviour,Alice Englert,Alice Englert,Comedy,,109,4.9,,,0.084,,
+705,The Last Boy on Earth,"Luka Hrgovic,Dino Julius,Nicolás Onetti",Camilo Zaffora,Adventure,,97,3.5,,,,,
+706,The Epidemic,"Manton Harding,Nigel Hartwell","Nigel Hartwell,Dakota House,Manton Harding",Action,,95,6.5,0.8,,,,
+707,Seneca,Robert Schwentke,"Matthew Wilder,Robert Schwentke",Biography,,112,5,,,,,
+708,Ghoomer,R. Balki,"Rahul Sengupta,R. Balki,Rishi Virmani",Drama,,135,8,,,0.037,,
+709,Muzzle,John Stalberg Jr.,"Carlyle Eubank,John Stalberg Jr.",Action,,100,5.4,,0.008,0.008,10.01.2023,0.005
+710,Monster,Kore-eda Hirokazu,Yûji Sakamoto,Drama,PG-13,126,8.1,,0.026,1.402,11.26.2023,0.026
+711,Champions,Bobby Farrelly,"Mark Rizzo,Javier Fesser,David Marqués",Comedy,PG-13,124,6.8,,16.272,18.907,03.12.2023,5.149
+712,American Fiction,Cord Jefferson,"Cord Jefferson,Percival Everett",Comedy,R,117,7.8,,,,,
+713,The Boys in the Boat,George Clooney,"Daniel James Brown,Mark L. Smith",Biography,PG-13,124,,,,,,
+714,Joy Ride,Adele Lim,"Adele Lim,Teresa Hsiao,Cherry Chevapravatdumrong",Comedy,R,95,6.4,,12.898,15.788,07.09.2023,5.806
+715,Radical,Christopher Zalla,"Laura Guadalupe A,Christopher Zalla,Joshua Davis",Drama,PG-13,125,8.1,,7.955,19.591,11.05.2023,2.658
+716,Destined 2: Christmas Once More,Brittany Wiscombe,Brittany Wiscombe,Family,,,6.6,,,,,
+717,Ride On,Larry Yang,Larry Yang,Action,,126,6.3,,0.129,36.259,04.09.2023,0.065
+718,Spinning Gold,Timothy Scott Bogart,Timothy Scott Bogart,Biography,R,137,6,27,,0.066,,
+719,Unseen,Yoko Okumura,"Salvatore Cardoni,Brian Rawlins",Horror,,76,5.7,,,,,
+720,The Flood,Brandon Slagle,"Josh Ridgway,Chad Law",Action,R,93,3.2,2,,,,
+721,The Good Half,Robert Schwartzman,Brett Ryland,Comedy,,110,7.7,,,,,
+722,Battle Over Britain,Callum Burn,"Callum Burn,Andrew Burn",War,,80,,,,,,
+723,Killer Book Club,Carlos Alonso Ojea,,Horror,TV-MA,89,4.6,,,,,
+724,Walden,Mick Davis,Mick Davis,Thriller,,,8.4,,,,,
+725,Time Still Turns the Pages,Nick Cheuk,Nick Cheuk,Drama,,95,7.8,,,0.859,,
+726,Big Shark,Tommy Wiseau,Tommy Wiseau,Adventure,,105,5.8,,,0.004,,
+727,Totem,Lila Avilés,Lila Avilés,Drama,,95,7.1,,,0.062,,
+728,Iraivan,I. Ahmed,I. Ahmed,Action,,154,4.6,,,0.053,,
+729,UT69,Shahnawaz Ali,Vikram Bhatti,,,117,8.5,,,,,
+730,Among Wolves,Justin Lee,Justin Lee,War,,80,7.1,,,,,
+731,Gonzo Girl,Patricia Arquette,"Jessica Caldwell,Rebecca Thomas,Cheryl Della Pietra",Drama,,107,6.8,,,,,
+732,The Christmas Venue,Vincenzo Conrorio,,Family,,84,5.1,,,,,
+733,A Perfect Christmas Pairing,Dave Thomas,Jenna Brister,Romance,,85,6.2,,,,,
+734,The Hammer,Jeff Beesley,"Karen Wyscarver,Sanford Golden",Biography,TV-PG,85,6.8,,,,,
+735,Robot Dreams,Pablo Berger,"Pablo Berger,Sara Varon",Animation,,102,7.7,,,0.002,,
+736,Zara Hatke Zara Bachke,Laxman Utekar,"Ramiz Ilham Khan,Maitrey Bajpai",Comedy,Not Rated,132,6.5,,,0.741,,
+737,Mighty Morphin Power Rangers: Once & Always,Charlie Haskell,"Alwyn Dale,Becca Barnes,Haim Saban",Action,TV-Y7-FV,55,5.7,,,,,
+738,Smugglers,Seung-wan Ryu,"Kim Jung Youn,Cha-won Choi,Seung-wan Ryu",Action,,129,6.4,,,36.825,,
+739,Confessions,Carlos Carrera,Alberto Chimal,Thriller,,97,7,,,1.184,,
+740,The Lost Boys,Zeno Graton,"Maarten Loix,Clara Bourreau,Zeno Graton",Drama,,83,6.9,,,0.013,,
+741,Family Switch,McG,"Adam Sztykiel,Amy Krouse Rosenthal,Victoria Strouse",Comedy,PG,101,5.8,,,,,
+742,Creed III,Michael B. Jordan,"Ryan Coogler,Keenan Coogler,Zach Baylin",Drama,PG-13,116,6.8,75,156.249,275.249,03.05.2023,58.37
+743,Sandwich,Jao Daniel Elamparo,"Reynold Giba,Brillante Mendoza",Drama,,92,4.9,,,,,
+744,Magazine Dreams,Elijah Bynum,Elijah Bynum,Drama,,124,6.8,,,,,
+745,Project Eerie,Ricky Umberger,Ricky Umberger,Horror,,76,4.2,,,,,
+746,Club Zero,Jessica Hausner,"Jessica Hausner,Géraldine Bajard",Comedy,,110,6,,,0.055,,
+747,When It Melts,Veerle Baetens,"Maarten Loix,Veerle Baetens,Lize Spit",Drama,,111,7.5,,,0.161,,
+748,Legion of Super-Heroes,Jeff Wamester,Josie Campbell,Action,PG-13,83,5.8,,,,,
+749,12.12: The Day,,,Drama,,141,8.2,,,14.169,,
+750,One Ranger,Jesse V. Johnson,Jesse V. Johnson,Action,R,95,5.2,,,0.028,,
+751,The Settlers,Felipe Gálvez Haberle,"Felipe Gálvez Haberle,Antonia Girardi,Mariano Llinás",Crime,,97,7.1,,,,,
+752,Monster Inside: America's Most Extreme Haunted House,Andrew Renzi,,Documentary,,87,5.5,,,,,
+753,Quasi,Kevin Heffernan,"Jay Chandrasekhar,Kevin Heffernan,Steve Lemme",Comedy,R,99,5.3,,,,,
+754,Mixed by Erry,Sydney Sibilia,"Sydney Sibilia,Simona Frasca,Armando Festa",Comedy,TV-MA,110,7.1,8.5,,1.12,,
+755,Vincent Must Die,Stéphan Castang,Mathieu Naert,Comedy,,115,6.7,,,0.149,,
+756,Black Flies,Jean-Stéphane Sauvaire,"Ben Mac Brown,Shannon Burke,Ryan King",Drama,R,2,6.2,,,,,
+757,#Manhole,Kazuyoshi Kumakiri,Michitaka Okada,Drama,,99,5.9,,,0.017,,
+758,Crypto Boy,Shady El-Hamus,"Jeroen Scholten van Aschat,Shady El-Hamus",Drama,TV-MA,103,5.7,,,,,
+759,Blood for Dust,Rod Blackhurst,"Rod Blackhurst,David Ebeltoft",Action,R,98,7.5,,,,,
+760,The Inseparables,Jérémie Degruson,"Bob Barlen,Cal Brunker,Joel Cohen",Animation,,90,7,,,0.672,,
+761,Sniper: G.R.I.T. - Global Response & Intelligence Team,Oliver Thompson,Oliver Thompson,Action,R,93,4.8,,,,,
+762,Just the Two of Us,Valérie Donzelli,"Audrey Diwan,Valérie Donzelli,Éric Reinhardt",Drama,,105,6.6,5.83,,5.021,,
+763,Day of the Fight,Jack Huston,Jack Huston,Drama,,105,7.7,,,,,
+764,Kensuke's Kingdom,"Kirk Hendry,Neil Boyle","Michael Morpurgo,Frank Cottrell Boyce",Animation,,85,7.8,,,,,
+765,The Taste of Christmas,Alejandro Lozano,Jose Tamez,Comedy,,100,7,,,,,
+766,Do Not Expect Too Much of the End of the World,Radu Jude,Radu Jude,Comedy,,163,7.5,,,,,
+767,Go West,"Stephen Meek,Jeremy Warner","Mallory Everton,Whitney Call,Adam Berg",Comedy,,90,6.6,,0.34,0.34,07.23.2023,0.05
+768,Half Sisters,Devin Fei-Fan Tau,"J. Alexander Johnson,Joe Leone",Horror,,78,3.4,,,,,
+769,The Delinquents,Rodrigo Moreno,Rodrigo Moreno,Comedy,Unrated,189,7,,0.042,0.05,10.22.2023,0.009
+770,Fireworks,Giuseppe Fiorello,"Giuseppe Fiorello,Andrea Cedrola",Drama,,134,7.4,,,1.349,,
+771,Wil,Tim Mielants,"Carl Joos,Jeroen Olyslaegers,Tim Mielants",Drama,,110,7.6,,,,,
+772,Quicksand,Andres Beltran,Matt Pitts,Thriller,,86,4.3,,,0.027,,
+773,Once Upon a Crime,Yûichi Fukuda,"Yûichi Fukuda,Aito Aoyagi,Tetsurô Kamata",Adventure,TV-14,107,5.2,,,,,
+774,Dark Asset,Michael Winnick,"Michael Winnick,Terri Farley-Teruel",Action,R,90,4,,,,,
+775,Self Reliance,Jake Johnson,Jake Johnson,Comedy,R,85,7.2,,,,,
+776,A Disturbance in the Force,"Steve Kozak,Jeremy Coon",,Documentary,,85,7.5,,,,,
+777,"20,000 Species of Bees",Estibaliz Urresola Solaguren,Estibaliz Urresola Solaguren,Drama,,128,6.8,,,0.999,,
+778,Lust Stories 2,"Amit Ravindernath Sharma,Sujoy Ghosh,R. Balki","Sujoy Ghosh(segment Sex with Ex),Sujoy Ghosh,Rishi Virmani(segment Made For Each Other),Rishi Virmani,R. Balki,R. Balki(segment Made For Each Other)",Drama,TV-MA,132,6.5,,,,,
+779,Spy x Family Code: White,Kazuhiro Furuhashi,"Ichirô Ôkouchi,Tatsuya Endo",Action,,,,,,,,
+780,The Plus One,Erik White,"Austin Highsmith Garces,Brendan Bradley",Comedy,PG-13,94,3.7,,,,,
+781,Make Me Believe,"Evren Karabiyik Günaydin,Murat Saraçoglu",Selen Bagci,Comedy,TV-14,104,5.6,,,,,
+782,Triangle Park,Allen Farst,Allen Farst,Drama,,,9.4,,,,,
+783,Lords of War,Andrew Niccol,Andrew Niccol,Crime,,,,,,,,
+784,800,M.S. Sripathy,"M.S. Sripathy,Shehan Karunatilaka",Biography,,158,8.9,,,0.009,,
+785,Baby Shark's Big Movie!,Alan Foreman,Whitney Ralls,Animation,TV-G,78,6.6,,,,,
+786,Gray Matter,Meko Winbush,Philip Gelatt,Drama,TV-14,87,4.9,,,,,
+787,Heart of a Champion,Brad Keller,Lisa Chapman,Drama,PG,86,6.7,,,0.028,,
+788,I Don't Expect Anyone to Believe Me,Fernando Frias,"Fernando Frias,Maria Camila Arias,Juan Pablo Villalobos",Comedy,TV-MA,117,5.8,,,,,
+789,Forgotten Love,Michal Gazda,"Marcin Baczynski,Mariusz Kuczewski,Tadeusz Dolega-Mostowicz",Drama,TV-MA,140,7.5,,,,,
+790,Ruby Gillman: Teenage Kraken,"Faryn Pearl,Kirk DeMicco","Pam Brady,Brian C. Brown,Elliott DiGuiseppi",Action,PG,91,5.7,70,15.754,45.525,07.02.2023,5.501
+791,The Retirement Plan,Tim Brown,Tim Brown,Action,R,103,5,,,0.006,,
+792,Love Again,Jim Strouse,"Sofie Cramer,Andrea Willson,Jim Strouse",Comedy,PG-13,104,5.9,,6.231,12.697,05.07.2023,2.381
+793,What Happens Later,Meg Ryan,"Meg Ryan,Kirk Lynn,Steven Dietz",Comedy,R,103,5,,3.274,3.332,11.05.2023,1.523
+794,It's a Wonderful Knife,Tyler MacIntyre,Michael Kennedy,Comedy,R,87,5.6,,0.811,0.825,11.12.2023,0.599
+795,Last Sentinel,Tanel Toom,Malachi Smyth,Drama,,117,5,,,0.144,,
+796,The Long Game,Julio Quintana,"Paco Farias,Humberto G. Garcia,Jennifer C. Stetson",Drama,,106,9.2,,,,,
+797,The Hive,Jared Allmond,Jared Allmond,Horror,,86,3.2,,,,,
+798,Sweetwater,Martin Guigui,Martin Guigui,Biography,PG-13,118,6,8,0.542,0.542,04.16.2023,0.351
+799,Ölümlü Dünya 2,Ali Atay,"Feyyaz Yigit,Aziz Kedi,Ali Atay",Comedy,,,8.1,,,,,
+800,The First Day of My Life,Paolo Genovese,"Paolo Genovese,Isabella Aguilar,Paolo Costella",Comedy,,121,6.7,8.37,,2.724,,
+801,It Be an Evil Moon,Ben Etchells,Ben Etchells,Comedy,,84,3.7,,,,,
+802,Gold Brick,Jérémie Rozan,"Victor Rodenbach,Jérémie Rozan",Comedy,TV-MA,95,6.1,,,,,
+803,Air Mata Di Ujung Sajadah,Key Mangunsong,"Ronny Irawan,Titien Wattimena",Drama,,105,7.2,,,,,
+804,To End All War: Oppenheimer & the Atomic Bomb,Christopher Cassel,,Documentary,,87,7.4,,,,,
+805,Bloody Daddy,Ali Abbas Zafar,"Ali Abbas Zafar,Aditya Basu",Action,,121,6.6,,,,,
+806,Antigang: La Relève,Benjamin Rocher,"Benjamin Rocher,Bertrand Soulier",Action,,90,5.4,,,,,
+807,My Animal,Jacqueline Castel,Jae Matthews,Horror,R,100,4.9,,,,,
+808,A New Breed of Criminal,Richard John Taylor,Steve Wraith,Crime,,88,3.1,,,,,
+809,Next Goal Wins,Taika Waititi,,Comedy,,104,6,,,,,
+810,The Deep Dark,Mathieu Turi,Mathieu Turi,Adventure,,103,6.1,,,0.213,,
+811,Tu Jhoothi Main Makkaar,Luv Ranjan,"Luv Ranjan,Rahul Mody",Comedy,Not Rated,150,6,,2.504,4.036,03.12.2023,0.96
+812,Northern Comfort,Hafsteinn Gunnar Sigurðsson,"Halldór Laxness Halldórsson,Tobias Munthe,Hafsteinn Gunnar Sigurðsson",Comedy,,97,6.2,,,0.167,,
+813,The Performance,Shira Piven,"Josh Salzberg,Shira Piven",Drama,,,8.8,,,,,
+814,A Difficult Year,"Éric Toledano,Olivier Nakache","Olivier Nakache,Éric Toledano",Comedy,,2,6.5,12,,6.786,,
+815,Paris Paramount,Nancy Meyers,Nancy Meyers,Comedy,,2,,100,,,,
+816,Prom Pact,Anya Adams,Anthony Lombardo,Comedy,TV-14,99,6.4,,,,,
+817,Japan,Raju Murugan,"Raju Murugan,C. Murugesh Babu",Action,,156,3.3,,,0.115,,
+818,Tantiram,Muthyala Meher Deepak,"M.S. Shabaz,Wineeth Ponnuru",Fantasy,,99,7.9,137,,,,
+819,3 Days in Malay,Louis Mandylor,Brandon Slagle,Action,R,99,3.2,,,,,
+820,Hitmen,Savvas D. Michael,Savvas D. Michael,Action,,109,5.2,,,,,
+821,Murdercise,"Paul Ragsdale,Angelica De Alba",Paul Ragsdale,Comedy,,84,3.8,0.01,,,,
+822,Target Number One,Andy Deliana,"Jeff Carr,Ken Cardwell,Ana Carolina Rebichia Deliana",Action,,,,2,,,,
+823,They Are Mine,Mac Alejandre,,Drama,,105,6.2,,,,,
+824,The Sacrifice Game,Jenn Wexler,"Sean Redlitz,Jenn Wexler",Horror,,90,6,,,,,
+825,Dance First,James Marsh,Neil Forsyth,Biography,,100,6.9,,,0.112,,
+826,The Donor Party,Thom Harp,Thom Harp,Comedy,,93,4.6,,,,,
+827,The Angry Black Girl and Her Monster,Bomani J. Story,Bomani J. Story,Drama,Not Rated,91,5.4,,0.123,0.123,06.11.2023,0.049
+828,Falling for the Manny,Damián Romay,Julia Cranney,Romance,,,6.6,,,,,
+829,A Savage Christmas,Madeleine Dyer,"Daniel Mulvihill,Madeleine Dyer,Max Jahufer",Comedy,,90,7.3,4,,0.01,,
+830,Well Done!,Gilles Legardinier,"Gilles Legardinier,Christel Henon",Comedy,,100,6.6,,,1.485,,
+831,The Best Man,Shane Dax Taylor,"Daniel Zirilli,C. Alec Rossel,Shane Dax Taylor",Action,R,93,3.8,,,0.019,,
+832,Full River Red,Yimou Zhang,"Yu Chen,Yimou Zhang",Comedy,,159,6.5,500,,0.404,,
+833,Only When I Laugh,Vanja Juranic,"Elma Tataragic,Vanja Juranic",Drama,,73,7.9,0.8,,0.009,,
+834,Discussion Materials,Alfredo Barrios Jr.,"Bill Keenan,Alfredo Barrios Jr.",Comedy,,73,,,,,,
+835,Scarygirl,"Tania Vincent,Ricard Cussó","Craig Behenna,Matt Everitt,Nathan Jurevicius",Animation,,90,5.3,,,0.941,,
+836,One Perfect Match,Jo-Anne Brechin,Ansley Gordon,Romance,,,7.2,,,,,
+837,Maa Oori Polimera 2,Anil Viswanath,Anil Viswanath,Horror,,125,7.5,40,,0.018,,
+838,Mark Antony,Adhik Ravichandran,"Savari Muthu,SJ Arjun,Adhik Ravichandran",Action,,150,6.7,,,0.096,,
+839,Tin & Tina,Rubin Stein,,Horror,,119,4.7,,,0.112,,
+840,Algea: God of Pain,Jd Allen,"Shyina Crayton,Jd Allen",Horror,,,10,,,,,
+841,Kisi Ka Bhai Kisi Ki Jaan,Farhad Samji,"Tasha Bhambra,Sparsh Khetarpal,Sajid Nadiadwala",Action,Not Rated,145,4.3,100,,2.429,,
+842,Temptation,Maria Sadowska,"Edyta Folwarska,Tomasz P. Chenczke",Drama,,98,2.8,,,0.592,,
+843,Sid Is Dead,Eli Gonda,"Tom Dolby,Drew Frist,Peter Warren",Comedy,,90,5.7,,,0.002,,
+844,Camp Hideout,Sean Olson,"C. Neil Davenport,Kat Olson,Dave DeBorde",Comedy,PG,100,5.6,,1.125,1.125,09.17.2023,0.489
+845,The Absence of Eden,Marco Perego,"Rick Rapoza,Marco Perego",Drama,,,7.2,,,,,
+846,In My Mother's Skin,Kenneth Dagatan,Kenneth Dagatan,Action,,97,5.3,,,,,
+847,Ataturk,Fuad Kavur,Fuad Kavur,Drama,,93,8.2,,,0.025,,
+848,Pet Shop Days,Olmo Schnabel,"Galen Core,Olmo Schnabel,Jack Irv",Drama,,100,7.3,,,,,
+849,The Venture Bros.: Radiant Is the Blood of the Baboon Heart,Christopher McCulloch,"Christopher McCulloch,Doc Hammer",Animation,R,83,7.9,,,,,
+850,Ein ganzes Leben,Hans Steinbichler,"Robert Seethaler,Ulrich Limmer",Drama,,115,6.8,,,1.409,,
+851,Kane,Blair Moore,Blair Moore,Crime,R,90,4.8,,,,,
+852,Bring Him to Me,Luke Sparke,Tom Evans,Crime,R,96,7.4,,,0.054,,
+853,Barber,Fintan Connolly,"Fiona Bergin,Fintan Connolly",Crime,,90,5,,,0.016,,
+854,Paramporul,C. Aravind Raj,C. Aravind Raj,Action,,146,7.4,,,0.003,,
+855,Glisten and the Merry Mission,Cory Morrison,"Temple Mathews,Sharon Price John",Animation,G,80,6.9,,,,,
+856,Shoulder Dance,Jay Arnold,Jay Arnold,Comedy,,103,7.6,,,,,
+857,Resurrected,Egor Baranov,"Egor Baranov,Joe Rechtman",Horror,,97,5.4,,,0.191,,
+858,Merry Mystery Christmas,Michelle Ouellet,,Romance,,84,6.2,,,,,
+859,Black Clover: Sword of the Wizard King,Ayataka Tanemura,"Ai Orii,Johnny Onda,Yuuki Tabata",Action,TV-14,110,7.4,,,,,
+860,The Featherweight,Robert Kolodny,Steve Loff,Biography,,99,7.1,,,,,
+861,Queen of Bones,Robert Budreau,Michael Burgner,Horror,,,7.9,,,,,
+862,Christmas Angel,LazRael Lison,LazRael Lison,Drama,,90,8.5,,,,,
+863,Praise This,Tina Gordon,"Tina Gordon,Brandon Broussard,Hudson Obayuwana",Musical,TV-14,101,5.9,,,,,
+864,Phoenix,Vishnu Bharathan,"Midhun Manuel Thomas,Bigil Balakrishnan,Vishnu Bharathan",Thriller,,132,8,,,0.002,,
+865,Lost in the Night,Amat Escalante,"Amat Escalante,Paulina Mendoza,Martín Escalante",Drama,,122,6.5,,,0.022,,
+866,He Went That Way,Jeffrey Darling,Evan M. Wiener,Crime,,95,5,,,,,
+867,Christmas in Big Sky Country,Marco Deufemia,Paula Tiberius,Romance,,,7.4,,,,,
+868,Natty Knocks,Dwight H. Little,Benjamin Olson,Horror,,94,4.2,,,,,
+869,I Am Rage,David Ryan Keith,"Stephen Durham,David Ryan Keith",Action,,89,5.2,,,,,
+870,Forgotten Experiment,Aleksandr Boguslavskiy,"Aleksandr Boguslavskiy,Sergey Kaluzhanov,Ilya Ipatov",Adventure,,105,3.5,159.5,,0.565,,
+871,Girl You Know It's True,Simon Verhoeven,Simon Verhoeven,Biography,,124,,,,,,
+872,Little Girl Blue,Mona Achache,Mona Achache,Documentary,,95,6.5,0.91,,0.306,,
+873,Seven Veils,Atom Egoyan,Atom Egoyan,Drama,,107,7.7,,,,,
+874,Soul Mates,Mark Gantt,"Chris LaMont,Joe Russo",Horror,R,95,6,,0.096,0.096,10.22.2023,0.096
+875,Silver Dollar Road,Raoul Peck,"Lizzie Presser,Raoul Peck",Documentary,PG,100,6.4,,,,,
+876,Due Justice,Javier Reyna,Javier Reyna,Action,R,97,4.4,,,,,
+877,The Abyss,Richard Holm,"Nicola Sinclair,Robin Sherlock Holm,Richard Holm",Action,,103,6.3,,,,,
+878,Falimy,Nithish Sahadev,"Sanjo Joseph,Nithish Sahadev",Drama,,125,7.3,,,0.016,,
+879,Sleep,Jason Yu,Jason Yu,Comedy,,95,6.9,,,10.332,,

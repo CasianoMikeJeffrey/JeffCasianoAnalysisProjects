@@ -1,0 +1,475 @@
+- create database Cinema
+- CREATE TABLE IF NOT EXISTS `cinema`.`imdbmovies_2023` (`Movie_ID` int(3) null, 
+`Title` varchar(67) null, `Director` varchar(150) null, `Writer` varchar(148) null, `Main_Genres` varchar(27) null,
+ `Motion_Picture_Rating` varchar(9) null, `Release_Year` int(4) null, `Rating` decimal(3,1) null,
+ `Budget_InMillions` numeric(8,3) null, `Gross_USCanada_InMillions` numeric(10,3) null,
+ `Gross_worldwide_InMillions` numeric(10,3) null, `Opening_Weekend_USCanada` date null,
+ `Gross_Opening_Weekend_InMillions` numeric(10,3) null) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;;
+
+
+UPDATE imdbmovies_2023
+SET
+  Director = NULLIF(Director, ''),
+  Writer = NULLIF(Writer, ''),
+  Main_Genres = NULLIF(Main_Genres, ''),
+  Motion_Picture_Rating = NULLIF(Motion_Picture_Rating, ''),
+  Runtime_Minutes = NULLIF(Runtime_Minutes, ''),
+  Rating = NULLIF(Rating, ''),
+  Budget_InMillions = NULLIF(Budget_InMillions, ''),
+  Gross_USCanada_InMillions = NULLIF(Gross_USCanada_InMillions, ''),
+  Gross_worldwide_InMillions = NULLIF(Gross_worldwide_InMillions, ''),
+  Gross_Opening_Weekend_InMillions = NULLIF(Gross_Opening_Weekend_InMillions, ''),
+  Opening_Weekend_USCanada = NULLIF(Opening_Weekend_USCanada, '');
+
+
+UPDATE imdbmovies_2023
+SET Opening_Weekend_USCanada = 
+    CASE
+        WHEN STR_TO_DATE(Opening_Weekend_USCanada, '%m.%d.%Y') IS NOT NULL 
+        THEN STR_TO_DATE(Opening_Weekend_USCanada, '%m.%d.%Y')
+        ELSE Opening_Weekend_USCanada
+    END;
+
+
+
+ALTER TABLE imdbmovies_2023
+MODIFY COLUMN Budget_InMillions numeric(8,3) NULL,
+MODIFY COLUMN Gross_USCanada_InMillions numeric(10,3) NULL,
+MODIFY COLUMN Gross_worldwide_InMillions numeric(10,3) NULL,
+MODIFY COLUMN Gross_Opening_Weekend_InMillions numeric(10,3) NULL,
+MODIFY COLUMN Rating decimal(3,1) NULL
+MODIFY COLUMN Runtime_Minutes int(3) Null
+
+-------------------------------------------------------------------------------------------------------
+
+(Movie trailers table) via Reddit and YouTube
+-- create table Top_movie_trailers2023(
+     Title varchar(60), Views_InMillions Numeric(3,1))
+
+--insert into top_movie_trailers2023 values(
+    "Barbie", "80"),
+    ("Oppenheimer", "66"),
+    ("Renfield", "48"),
+    ("Meg 2: The Trench", "46.9"),
+    ("Elemental", "46.6"),
+    ("The Nun II", "41"),
+    ("Fast X", "40.8"),
+    ("Five Nights at Freddy's", "40.6"),
+    ("Wonka", "38"),
+    ("Saw X", "36"),
+    ("Napoleon", "35"),
+    ("Transformers: Rise of the Beasts", "32.6"),
+    ("The Flash", "32.4"),
+    ("Lift", "31.7"),
+    ("John Wick: Chapter 4", "31.3"),
+    ("Fast X", "31"),
+    ("Blue Beetle", "29.6"),
+    ("The Hunger Games: The Ballad of Songbirds & Snakes", "29.3"),
+    ("Mission: Impossible - Dead Reckoning Part One", "29"),
+    ("Shazam! Fury of the Gods", "28.8");
+
+-------------------------------------------------------------------------------------------------------
+
+
+AWARDS/NOMINEES TABLE Via The Hollywood Reporter
+-- CREATE TABLE IF NOT EXISTS `cinema`.`goldenglobes_awardeesnominees_2024` 
+(`Title` varchar(45), `Nomination` int(1), `Winner` int(1), `Total Nomination & Awards` int(2), `Award` varchar(257))
+DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;;
+
+
+UPDATE goldenglobes_awardeesnominees_2024
+SET
+  Title = NULLIF(Title, ''),
+  Nomination = NULLIF(Nomination, ''),
+  Winner = NULLIF(Winner, ''),
+  Total_NominationAwards = NULLIF(Total_NominationAwards, ''),
+  Awards = NULLIF(Awards, '');
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+---Questions for these retrieved data.---
+1. Number of movies released in 2023
+-- select count(Opening_Weekend_USCanada) as Number_of_Movies_Released_in_2023
+from imdbmovies_2023
+WHERE Opening_Weekend_USCanada is not null;
+
+-------------------------------------------------------------------------------------------------------
+
+2. What are the movies with the highest and lowest rating?
+Top 10 highest rating;
+-- SELECT rating, Title, Main_Genres FROM imdbmovies_2023
+order by rating desc
+limit 10
+
+Top 10 lowest rating;
+-- SELECT rating, Title, Main_Genres FROM imdbmovies_2023
+where rating is NOT null
+order by rating 
+limit 10
+
+-------------------------------------------------------------------------------------------------------
+
+3. List of directors who made movies in 2023
+-- select DISTINCT Director as "List of 2023 Directors" from imdbmovies_2023
+where Director is not null
+Order by Director
+
+-------------------------------------------------------------------------------------------------------
+
+4. Number of directors who made movies in 2023
+-- select count(DISTINCT director) as "Number of directors who made movies in 2023" from imdbmovies_2023
+where Director is not null
+
+-------------------------------------------------------------------------------------------------------
+
+5. Number of movies made by each director in 2023
+-- SELECT Director, count(Title) as "Number of movies from each director" from imdbmovies_2023
+where Director is not null
+group by Director
+
+-------------------------------------------------------------------------------------------------------
+
+6. Movies with the highest budget
+-- SELECT Title, Budget_InMillions FROM imdbmovies_2023
+order by Budget_InMillions desc
+limit 10
+
+-------------------------------------------------------------------------------------------------------
+
+7. Movies with the Lowest budget
+-- SELECT Title, Budget_InMillions From imdbmovies_2023
+where Budget_InMillions is not null
+order by Budget_InMillions 
+limit 10
+
+
+-------------------------------------------------------------------------------------------------------
+
+8. Director with the highest rated movie. (best Rated movie per director)
+-- SELECT Director, Title, rating from imdbmovies_2023
+order by Rating desc
+limit 10;
+
+-------------------------------------------------------------------------------------------------------
+
+9. Top Grossing Movies of 2023
+(Highest Grossing)
+-- SELECT Title, Rating , 
+	round((Gross_USCanada_InMillions+Gross_worldwide_InMillions), 0) as Total_Gross_InMillions from imdbmovies_2023
+where Gross_USCanada_InMillions AND Gross_worldwide_InMillions AND Rating AND Director is not null
+order by (Gross_USCanada_InMillions+Gross_worldwide_InMillions) DESC
+limit 10;
+
+
+(Lowest Grosing)
+-- SELECT Title, Rating , (Gross_USCanada_InMillions+Gross_worldwide_InMillions) as Total_Gross_InMillions from imdbmovies_2023
+where Gross_USCanada_InMillions AND Gross_worldwide_InMillions AND Rating AND Director is not null
+order by (Gross_USCanada_InMillions+Gross_worldwide_InMillions)
+limit 10;
+
+-------------------------------------------------------------------------------------------------------
+
+10. Average Box Office revenue per Genre
+(Number of Movies per genre)
+-- SELECT Main_Genres, count(Title) as "Number of Movies" FROM imdbmovies_2023 
+   where Main_Genres is not null group by Main_Genres;
+   
+
+(Average Revenue per Genre)
+-- SELECT DISTINCT Main_Genres, round(AVG((Gross_USCanada_InMillions + Gross_worldwide_InMillions)-Budget_InMillions), 0) AS Average_Revenue_InMillions
+from imdbmovies_2023
+where Main_Genres is not null
+and ((Gross_USCanada_InMillions + Gross_worldwide_InMillions)-Budget_InMillions) is not null
+group BY Main_Genres
+order by average_revenue_InMillions DESC;
+
+-------------------------------------------------------------------------------------------------------
+
+11. Identify movies with the best return investment
+-- select Title, round(Budget_InMillions, 0), round((Gross_USCanada_InMillions+Gross_worldwide_InMillions), 0) as Total_gross_inMillions, 
+round(((Gross_USCanada_InMillions+Gross_worldwide_InMillions)- Budget_InMillions), 0) as Total_Revenue 
+FROM imdbmovies_2023
+where Title is not null 
+and Budget_InMillions is not null 
+and Gross_USCanada_InMillions is not null 
+and Gross_worldwide_InMillions is not null
+order by total_revenue DESC
+limit 10;
+
+-------------------------------------------------------------------------------------------------------
+
+12. Months with most movie releases
+
+--SELECT MONTH(Opening_Weekend_USCanada) AS Month,
+  COUNT(Title) AS "Number of Movies Released"
+FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+GROUP BY MONTH(Opening_Weekend_USCanada)
+ORDER BY Month;
+
+-------------------------------------------------------------------------------------------------------
+
+13. Analyze if there's correlation between release months and box office success
+
+Step 1 (Get the list of months that has the most succesful viewrship interms of "Average Income" per month)
+--SELECT month(Opening_Weekend_USCanada) as month,
+round(AVG(Gross_USCanada_InMillions+Gross_worldwide_InMillions), 0) as Average_Gross_Income_InMillions from imdbmovies_2023
+where month(Opening_Weekend_USCanada) is not null
+GROUP BY
+  MONTH(Opening_Weekend_USCanada)  
+ORDER BY `Average_Gross_Income` DESC;
+
+Step 2 
+A. (Assess why these months are the most successful)
+B. (What are the movie trends in this timeframe)
+C. (Does the weather affects why Cinemas became successful in this timeframe)
+D. (What movie genres are mostly released during this timeframe)
+
+
+--SELECT Title as "Movies Released May to July", 
+Main_Genres,
+Month(Opening_Weekend_USCanada) as Month FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+AND Month(Opening_Weekend_USCanada) BETWEEN 5 and 7
+order by Month(Opening_Weekend_USCanada), Main_Genres;
+
+--SELECT Title as "Movies Released in May", 
+Month(Opening_Weekend_USCanada) as Month,
+Main_Genres FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+AND Opening_Weekend_USCanada BETWEEN "2023-05-01" and "2023-05-31"
+order by Month(Opening_Weekend_USCanada), Main_Genres
+
+--SELECT Title as "Movies Released in June", 
+Month(Opening_Weekend_USCanada) as Month,
+Main_Genres FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+AND Opening_Weekend_USCanada BETWEEN "2023-06-01" and "2023-06-31"
+order by Month(Opening_Weekend_USCanada), Main_Genres
+
+--SELECT Title as "Movies Released in July", 
+Month(Opening_Weekend_USCanada) as Month,
+Main_Genres FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+AND Opening_Weekend_USCanada BETWEEN "2023-07-01" and "2023-07-31"
+order by Month(Opening_Weekend_USCanada), Main_Genres
+
+
+
+
+(This is to prove the argument that most of the anticipated movies of the year was released in May to July via Table Top_Movie_trailers)
+--SELECT imdbmovies_2023.title, 
+     round(top_movie_trailers2023.Views_InMillions, 0) AS TrailerViews_InMillions_via_YouTube,
+     month(imdbmovies_2023.Opening_Weekend_USCanada) as month,
+    round((imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions), 0) as TotalGross_InMillions
+from imdbmovies_2023
+left JOIN top_movie_trailers2023 on imdbmovies_2023.Title = top_movie_trailers2023.Title
+WHERE month(imdbmovies_2023.Opening_Weekend_USCanada) BETWEEN 5 AND 7 AND
+(imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions) is not null
+AND top_movie_trailers2023.Views_InMillions is not null
+order by top_movie_trailers2023.Views_InMillions DESC, 
+		 (imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions);
+
+
+(List of the most viewed trailers)
+--SELECT imdbmovies_2023.title, 
+     round(top_movie_trailers2023.Views_InMillions, 0) AS TrailerViews_InMillions,
+     month(imdbmovies_2023.Opening_Weekend_USCanada) as month,
+    round((imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions), 0) as TotalGross
+from imdbmovies_2023
+left JOIN top_movie_trailers2023 on imdbmovies_2023.Title = top_movie_trailers2023.Title
+WHERE (imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions) is not null
+AND top_movie_trailers2023.Views_InMillions is not null
+order by top_movie_trailers2023.Views_InMillions DESC, 
+		 (imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions);
+
+
+(Correlation between trailer success vs box office success)
+--SELECT Title, ROUND((Gross_USCanada_InMillions+Gross_worldwide_InMillions), 0) as Box_Office_Success 
+FROM imdbmovies_2023
+where Gross_USCanada_InMillions+Gross_worldwide_InMillions is not null
+order by Gross_USCanada_InMillions+Gross_worldwide_InMillions desc
+limit 20;
+
+
+--select top_movie_trailers2023.Title,
+     top_movie_trailers2023.Views_InMillions,
+    imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions as Box_Office_Success_InMillions
+FROM top_movie_trailers2023
+left join imdbmovies_2023
+on top_movie_trailers2023.Title=imdbmovies_2023.Title
+where imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions is not null
+order by imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions DESC;
+
+
+(show the trend of genre/the top movie genres release from may to july)
+--select DISTINCT Main_Genres, count(Title) as "Number of Movies released", month(Opening_Weekend_USCanada) as month
+FROM imdbmovies_2023
+where Main_Genres is not null
+and month(Opening_Weekend_USCanada) BETWEEN 5 and 7
+group by Main_Genres
+order by count(Title) DESC;
+
+-------------------------------------------------------------------------------------------------------
+
+
+14. Average Rating of movies per quarter
+
+(This is per month)
+--SELECT month(Opening_Weekend_USCanada) as month, 
+	count(Title) as  Number_of_Movies_released, 
+	round(AVG(Rating), 2) as Average_Rating
+from imdbmovies_2023
+where month(Opening_Weekend_USCanada) is not null
+GROUP by month(Opening_Weekend_USCanada);
+
+
+(This is per quarter, year also indicated)
+--SELECT COUNT(Title) as Number_of_Movies_released, 
+       YEAR(Opening_Weekend_USCanada) as Year,
+       QUARTER(Opening_Weekend_USCanada) as Quarter,
+       AVG(rating) as Average_Rating
+FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+GROUP BY YEAR(Opening_Weekend_USCanada), QUARTER(Opening_Weekend_USCanada)
+ORDER BY Year, Quarter;
+
+
+(This is per quarter, without indicating the year)
+--SELECT QUARTER(Opening_Weekend_USCanada) as Quarter,
+	COUNT(Title) as Number_of_Movies_released, 
+	AVG(rating) as Average_Rating
+FROM imdbmovies_2023
+WHERE Opening_Weekend_USCanada IS NOT NULL
+GROUP BY QUARTER(Opening_Weekend_USCanada)
+ORDER BY Quarter;
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+15. Correlation between award winning movies vs box office success
+--SELECT goldenglobes_awardeesnominees_2024.Title,
+	goldenglobes_awardeesnominees_2024.Nomination,
+    goldenglobes_awardeesnominees_2024.Winner,
+    goldenglobes_awardeesnominees_2024.Total_NominationAwards,
+    (imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions) as Total_Gross_InMillions
+from goldenglobes_awardeesnominees_2024
+RIGHT JOIN imdbmovies_2023
+on goldenglobes_awardeesnominees_2024.Title=imdbmovies_2023.Title
+where (imdbmovies_2023.Gross_USCanada_InMillions+imdbmovies_2023.Gross_worldwide_InMillions) is not null
+and goldenglobes_awardeesnominees_2024.Title is not null
+Order by goldenglobes_awardeesnominees_2024.Total_NominationAwards DESC;
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+16. DURATION AND GENRE
+(Analyze the average duration of movies per genre)
+--SELECT Main_Genres, AVG(Runtime_Minutes) as Average_Runtime_InMinutes
+from imdbmovies_2023
+where Main_Genres is not null
+group by Main_Genres;
+
+
+
+Identify genres with the longest and shortest duration
+--SELECT Main_Genres, AVG(Runtime_Minutes) as Average_Runtime_InMinutes
+from imdbmovies_2023
+where Main_Genres is not null
+group by Main_Genres
+order by Average_Runtime_InMinutes DESC;
+
+
+
+Correlation between duration and Ratings
+--SELECT Main_Genres,
+	AVG(Runtime_Minutes) as Average_Runtime_InMinutes,
+    	AVG(Rating) as Average_Rating
+from imdbmovies_2023
+where Main_Genres is not null
+group by Main_Genres
+order by Average_Runtime_InMinutes DESC, Average_Rating;
+
+
+
+--SELECT
+    Covariance / (RuntimeStdDev * RatingStdDev) AS Correlation
+FROM (
+    SELECT
+        AVG(Runtime_Minutes * Rating) - AVG(Runtime_Minutes) * AVG(Rating) AS Covariance,
+        SQRT(AVG(Runtime_Minutes * Runtime_Minutes) - AVG(Runtime_Minutes) * AVG(Runtime_Minutes)) AS RuntimeStdDev,
+        SQRT(AVG(Rating * Rating) - AVG(Rating) * AVG(Rating)) AS RatingStdDev
+    FROM imdbmovies_2023
+    WHERE Runtime_Minutes IS NOT NULL AND Rating IS NOT NULL
+) AS CorrelationData;
+
+
+-------------------------------------------------------------------------------------------------------
+16. Average Revenue per month
+-- select month(Opening_Weekend_USCanada) as month,
+	round(Avg((Gross_USCanada_InMillions+Gross_USCanada_InMillions)-Budget_InMillions), 0) as "Average Avenue in Millions"
+from imdbmovies_2023
+where month(Opening_Weekend_USCanada) is not null
+group by month(Opening_Weekend_USCanada);
+
+
+
+17. Average Revenue of Movies by Runtime
+--SELECT
+  ROUND(Runtime_Minutes / 10)*10 AS Runtime_In_Minutes,
+  ROUND(AVG((Gross_USCanada_InMillions + Gross_worldwide_InMillions) - Budget_InMillions), 0) AS Average_Revenue
+FROM
+  imdbmovies_2023
+GROUP BY
+  Runtime_In_Minutes
+HAVING Runtime_In_Minutes >= 90  
+AND Average_Revenue is not null
+ORDER BY
+  Runtime_In_Minutes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
